@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4f0e8"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="365"><link rel="manifest" href="manifest.webmanifest">
+<title>365</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="top"><div><div class="eyebrow">ONE YEAR · THREE LENSES</div><h1>365</h1></div><button id="settings" class="icon">⚙︎</button></header>
+<main>
+<section class="dayhead"><div class="eyebrow" id="dateLabel"></div><h2 id="dayNumber"></h2><p id="theme"></p></section>
+<section class="card poetry"><div class="type">POETRY</div><h3 id="poetryTitle"></h3><div class="creator" id="poetryCreator"></div><p id="poetryFocus"></p><button class="outline" id="poetryRead">Read poem →</button><button class="complete" id="poetryDone"></button></section>
+<section class="card essay"><div class="type">ESSAY</div><h3 id="essayTitle"></h3><div class="creator" id="essayCreator"></div><p id="essayFocus"></p><button class="outline" id="essayRead">Read essay →</button><button class="complete" id="essayDone"></button></section>
+<section class="card art"><div class="type">ART</div><h3 id="artTitle"></h3><div class="creator" id="artCreator"></div>
+<div id="artFrame" class="artFrame"><img id="artImage" alt=""><div id="artFallback"><strong>Artwork</strong><span>The image source will be shown here when a verified open-access image is available.</span></div></div>
+<div class="caption" id="artCaption"></div><p id="artFocus"></p><button class="outline" id="artSource">View museum record →</button><button class="complete" id="artDone"></button></section>
+<section class="card reflection"><div class="type">TODAY'S CONNECTION</div><h3>What do these three works have in common?</h3><textarea id="note" placeholder="A sentence, a thought, a question…"></textarea><button class="complete" id="saveNote">Save reflection</button></section>
+<section class="card progressCard"><div class="row"><strong>Year progress</strong><span id="progress"></span></div><div class="bar"><div id="bar"></div></div><div class="small" id="completionDetail"></div></section>
+<section class="card"><div class="row"><strong>365-day calendar</strong><button class="text" id="today">Today</button></div><div id="calendar" class="calendar"></div></section>
+</main>
+<nav class="bottom"><button id="navToday" class="active">Today</button><button id="navCalendar">Calendar</button></nav>
+<div id="sheet" class="sheet hidden"><div class="sheetbox"><div class="row"><h3>365</h3><button id="close" class="icon">✕</button></div><p>Three daily practices: <strong>poetry, essays, and art.</strong></p><p class="small">Day 1 is August 19, 2026. Your local calendar advances the project automatically.</p><button id="reset" class="danger">Reset all progress</button></div></div>
+<script src="data.js"></script><script src="app.js"></script></body></html>
