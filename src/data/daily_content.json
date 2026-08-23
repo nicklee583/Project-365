@@ -124,9 +124,9 @@
         "confidence": "B",
         "relationship_to_poem": "Dickinson gives desire its ecstatic interior voice; Bacon supplies the cooler analytical counterweight.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -814,9 +814,9 @@
         "confidence": "A",
         "relationship_to_poem": "Berry seeks peace by entering the nonhuman world; Muir goes farther into it, allowing weather to unsettle ordinary human scale.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10012/10012-h/10012-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "John Muir Writings",
+          "url": "https://www.yosemite.ca.us/john_muir_writings/the_mountains_of_california/chapter_10.html",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -1366,9 +1366,9 @@
         "confidence": "A",
         "relationship_to_poem": "Whitman shows the child continually absorbing the world; Lamb shows the adult discovering how childhood persists as memory and imagination.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -1642,9 +1642,9 @@
         "confidence": "A",
         "relationship_to_poem": "Lee's poem remembers family through a small act of care; Lamb widens the lens to the complicated texture of living among relations.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -1711,9 +1711,9 @@
         "confidence": "B",
         "relationship_to_poem": "Moore's silence is active rather than empty; Dickens similarly discovers that quiet reveals presences daytime noise conceals.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/914/914-h/914-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_Charles_Dickens/Volume_29",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -2125,9 +2125,9 @@
         "confidence": "A",
         "relationship_to_poem": "Harper’s poem treats learning as liberation; Hazlitt asks what real learning looks like once mere credentials and memorization are stripped away.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/3020/pg3020-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Table-Talk/Volume_1/Essay_8",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -2815,9 +2815,9 @@
         "confidence": "A",
         "relationship_to_poem": "Hershey makes touch both intimate and political; Keller expands touch into an entire way of knowing the world.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/27683/pg27683-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7191608M/The_world_I_live_in.",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -2884,9 +2884,9 @@
         "confidence": "A",
         "relationship_to_poem": "Sexton’s ferry crossing is both physical and psychological departure; Hazlitt explains why leaving can loosen the self.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/3020/pg3020-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Table-Talk/Volume_2/Essay_3",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -3091,9 +3091,9 @@
         "confidence": "A",
         "relationship_to_poem": "Collins foregrounds the stories by which we understand experience; Stevenson asks why some stories seize the imagination in the first place.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -3160,9 +3160,9 @@
         "confidence": "B",
         "relationship_to_poem": "Niatum writes attraction as immediate particularity; Bacon supplies an analytical contrast about why another person becomes compelling.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -3367,9 +3367,9 @@
         "confidence": "A",
         "relationship_to_poem": "Yeats imagines love as something seen differently from old age; Lamb demonstrates the same transforming power of retrospection.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -3919,9 +3919,9 @@
         "confidence": "A",
         "relationship_to_poem": "Angelou makes siblinghood older than memory; Lamb shows sibling intimacy braided into family history and geography.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4057,9 +4057,9 @@
         "confidence": "A",
         "relationship_to_poem": "Dixon’s hands contain ancestry, labor, touch, and class; Keller provides a radically different embodied account of what hands can know.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/27683/pg27683-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7191608M/The_world_I_live_in.",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -4195,9 +4195,9 @@
         "confidence": "A",
         "relationship_to_poem": "Longfellow’s blacksmith is defined through practiced making; Ruskin asks what labor becomes when the maker is allowed to remain human.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24340633M/The_nature_of_Gothic",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4333,9 +4333,9 @@
         "confidence": "B",
         "relationship_to_poem": "Franklin shows first love becoming a template for later feeling; Lamb captures the social machinery that makes early romance memorable.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4402,9 +4402,9 @@
         "confidence": "A",
         "relationship_to_poem": "Nye turns daily chores into devotion; James explains how repetition becomes embodied structure rather than mere monotony.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/57628/pg57628-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "York University — Classics in the History of Psychology",
+          "url": "https://psychclassics.yorku.ca/James/Principles/prin4.htm",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4609,9 +4609,9 @@
         "confidence": "A",
         "relationship_to_poem": "Kunitz reaches knowledge through accumulated lived layers; Bacon and Montaigne examine the tension between book knowledge and experienced wisdom.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon",
+          "url_qa": "PASS — NON-GUTENBERG; MULTI-SOURCE SCHEMA LIMITATION"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4816,9 +4816,9 @@
         "confidence": "B",
         "relationship_to_poem": "Bronson asks readers to imagine hidden loneliness in people they do not know; Bacon gives a historically distant—and intentionally uneasy—counterpoint.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4954,9 +4954,9 @@
         "confidence": "A",
         "relationship_to_poem": "Pierce reveals domestic life as wild accumulation from within; Lamb provides the bachelor’s comic view from outside the household.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -5092,9 +5092,9 @@
         "confidence": "B",
         "relationship_to_poem": "McKay acknowledges love’s artifice while still feeling it; Bacon similarly distrusts romance without dismissing its power.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon/X_Of_Love",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -5368,9 +5368,9 @@
         "confidence": "A",
         "relationship_to_poem": "Woolsey imagines home radiating outward toward others; Seneca analyzes the ethics that distinguish genuine giving from social accounting.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3794/3794-h/3794-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_Benefits",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation/source",
         "work_status": "UNIQUE"
@@ -5506,9 +5506,9 @@
         "confidence": "A",
         "relationship_to_poem": "Klink welcomes a newborn into a damaged world; Addams asks how welcome can be built into a place and practiced among strangers.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/1325/pg1325-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Pennsylvania — A Celebration of Women Writers",
+          "url": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -5851,9 +5851,9 @@
         "confidence": "A",
         "relationship_to_poem": "Almallah’s borders make exile habitual; Stevenson offers a quieter version in which estrangement occurs without even crossing a national frontier.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 3 uses"
@@ -6334,9 +6334,9 @@
         "confidence": "A",
         "relationship_to_poem": "Chen’s poem imagines family as a structure made and remade; Zitkala-Ša shows kinship as an entire lived network of story and relation.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/10376/pg10376-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Pennsylvania — A Celebration of Women Writers",
+          "url": "https://digital.library.upenn.edu/women/zitkala-sa/stories/stories.html#impressions",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -6403,9 +6403,9 @@
         "confidence": "B",
         "relationship_to_poem": "Herrera inhabits the border as lived detention and migration; Turner provides a historically influential—and contestable—example of what happens when borders become national narratives.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/22994/pg22994-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "American Historical Association",
+          "url": "https://www.historians.org/resource/the-significance-of-the-frontier-in-american-history/",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -6472,9 +6472,9 @@
         "confidence": "A",
         "relationship_to_poem": "Dickinson compresses fame into attraction, sting, and disappearance; Bacon expands the mechanisms by which reputation is produced.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -6610,9 +6610,9 @@
         "confidence": "A",
         "relationship_to_poem": "O’Hara writes sexuality through visibility, concealment, and desire; Carpenter supplies an early historical argument for social recognition.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/53763/pg53763-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL25920331M/The_intermediate_sex",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -7093,9 +7093,9 @@
         "confidence": "B",
         "relationship_to_poem": "Williams stages the awkward friction of two voices; Stevenson asks what conditions let dialogue become genuinely reciprocal.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -7231,9 +7231,9 @@
         "confidence": "A",
         "relationship_to_poem": "Barnstone foregrounds translation as transformation; Arnold makes the tradeoffs explicit at the level of rhythm and style.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://gutenberg.org/cache/epub/65381/pg65381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_translating_Homer",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -7990,9 +7990,9 @@
         "confidence": "A",
         "relationship_to_poem": "Harjo's table gathers an entire life around food; Lamb exaggerates how a meal accumulates meaning far beyond survival.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -8335,9 +8335,9 @@
         "confidence": "B",
         "relationship_to_poem": "Komunyakaa meets his own face and others in reflective stone; Schopenhauer examines the human compulsion to read identity from faces.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/10833/pg10833-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_Physiognomy",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -8680,9 +8680,9 @@
         "confidence": "A",
         "relationship_to_poem": "Frost makes a home emotionally unreachable from within; Stevenson shows how home itself can become strange.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 3 uses"
@@ -8887,9 +8887,9 @@
         "confidence": "B",
         "relationship_to_poem": "Brooks makes domestic love visible in a small shared meal; Eliot expands that ordinary intimacy into the slow moral work of living together.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/145/pg145-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Middlemarch",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -9025,9 +9025,9 @@
         "confidence": "A",
         "relationship_to_poem": "Ríos makes language and food carry grandmotherly intimacy; Zitkala-Ša shows how a first language can become inseparable from cultural survival.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/10376/pg10376-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Pennsylvania — A Celebration of Women Writers",
+          "url": "https://digital.library.upenn.edu/women/zitkala-sa/stories/stories.html#teacher",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -9232,9 +9232,9 @@
         "confidence": "A",
         "relationship_to_poem": "Cullen's childhood is overwritten by one racist act; Du Bois explains the social structure that makes such assumptions precede recognition.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/408/408-h/408-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Souls_of_Black_Folk_%282nd_ed%29",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -9439,9 +9439,9 @@
         "confidence": "A",
         "relationship_to_poem": "Brooks's repeated 'we' creates a group persona; Emerson examines the social codes through which identities become performances.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/16643/pg16643-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Essays%3A_Second_Series/Manners",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -9508,9 +9508,9 @@
         "confidence": "A",
         "relationship_to_poem": "MacLeish turns an object into symbolic memory; Lamb shows how material things become containers for a lost period of life.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -9577,9 +9577,9 @@
         "confidence": "A",
         "relationship_to_poem": "Guest's Thanksgiving gathers family and memory around the table; Lamb makes eating itself a communal narrative performance.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -9853,9 +9853,9 @@
         "confidence": "A",
         "relationship_to_poem": "Oliver's journey requires separating from demanding voices; Hazlitt describes the psychological release produced by physically leaving them behind.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/3020/pg3020-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Table-Talk/Volume_2/Essay_3",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -9991,9 +9991,9 @@
         "confidence": "B",
         "relationship_to_poem": "Kooser compresses years into one encounter; Stevenson reflects on what friendship preserves across altered lives.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -10198,9 +10198,9 @@
         "confidence": "B",
         "relationship_to_poem": "Rossetti makes temptation sensuous and immediate; Bacon asks how character and habit shape what we experience as desire.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon/XXXIX_Of_Custom_and_Education",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -10888,9 +10888,9 @@
         "confidence": "B",
         "relationship_to_poem": "Smith imagines future viewers confronting a vanished London; Gibbon reflects on actual remains of a civilization that believed itself permanent.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/25717/pg25717-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Christian Classics Ethereal Library",
+          "url": "https://www.ccel.org/g/gibbon/decline/volume2/chap71.htm",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -11026,9 +11026,9 @@
         "confidence": "A",
         "relationship_to_poem": "Dunbar makes regret a debt accruing over time; Montaigne asks whether self-knowledge can replace futile repayment to the past.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3600/3600-h/3600-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -11095,9 +11095,9 @@
         "confidence": "B",
         "relationship_to_poem": "Ralegh attacks falsehood throughout public life; Tolstoy asks why ordinary people keep reproducing systems of lying.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/4602/pg4602-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Kingdom_of_God_Is_Within_You_%281894%29",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -11371,9 +11371,9 @@
         "confidence": "B",
         "relationship_to_poem": "Donne imagines love stretching without breaking; Montaigne asks what absence actually does to affection and thought.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3600/3600-h/3600-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -11440,9 +11440,9 @@
         "confidence": "A",
         "relationship_to_poem": "Byron compresses destruction into sudden silence; Ruskin asks what exactly is lost when human creations disappear.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24589637M/The_stones_of_Venice",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -12061,9 +12061,9 @@
         "confidence": "A",
         "relationship_to_poem": "Boland entwines familial and national leaving; Joyce shows the emotional shock of learning that intimacy never grants complete ownership of another past.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/2814/pg2814-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Dubliners/The_Dead",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -12337,9 +12337,9 @@
         "confidence": "A",
         "relationship_to_poem": "Frost makes belonging require surrender; the Gita asks what it means to give up ownership of one's action while still acting fully.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/2388/pg2388-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Bhagavad-Gita_%28Besant_4th%29/Discourse_4",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -13165,9 +13165,9 @@
         "confidence": "A",
         "relationship_to_poem": "Nye burns the remnants of a year; Milton asks what is lost when authorities burn, suppress, or prevent words before readers can encounter them.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/608/pg608-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Areopagitica_%281644%29",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -13372,9 +13372,9 @@
         "confidence": "B",
         "relationship_to_poem": "Frost makes fire an elemental figure for destructive desire; Muir gives fire its material place inside actual lived landscape.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/18359/pg18359-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "John Muir Writings",
+          "url": "https://www.yosemite.ca.us/john_muir_writings/the_story_of_my_boyhood_and_youth/chapter_2.html",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -13510,9 +13510,9 @@
         "confidence": "B",
         "relationship_to_poem": "Berry questions the simplification required to keep an enemy; Montaigne provides a historically distant reflection on quarrel and hostility.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3600/3600-h/3600-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -13786,9 +13786,9 @@
         "confidence": "A",
         "relationship_to_poem": "Johnson makes escape inward when circumstances cannot change; Hazlitt explores the complementary fantasy of physically leaving those circumstances behind.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/3020/pg3020-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Table-Talk/Volume_2/Essay_3",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -14131,9 +14131,9 @@
         "confidence": "A",
         "relationship_to_poem": "Keats's urn survives because art freezes what life cannot; Ruskin asks whether visible irregularity can itself be part of an object's value.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24340633M/The_nature_of_Gothic",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -14338,9 +14338,9 @@
         "confidence": "B",
         "relationship_to_poem": "Dunbar-Nelson turns poison into an intimate natural threat; Muir widens the motif into ecological adaptation rather than moral symbolism.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/60749/60749-h/60749-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "John Muir Writings",
+          "url": "https://www.yosemite.ca.us/john_muir_writings/a_thousand_mile_walk_to_the_gulf/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -14407,9 +14407,9 @@
         "confidence": "A",
         "relationship_to_poem": "Levertov makes a secret hover between knowledge and disclosure; Bacon asks what secrecy does socially once information becomes unevenly distributed.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/56463/56463-h/56463-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon/VI_Of_Simulation_and_Dissimulation",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -15028,9 +15028,9 @@
         "confidence": "A",
         "relationship_to_poem": "Hall's mending turns repair into creative transformation; Ruskin supplies a philosophy in which imperfection can be part of wholeness.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24340633M/The_nature_of_Gothic",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -15442,9 +15442,9 @@
         "confidence": "B",
         "relationship_to_poem": "Harper's grandfather is encountered across generational distance; Addams demonstrates how older generations remain active through narrative and example.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/1325/pg1325-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Pennsylvania — A Celebration of Women Writers",
+          "url": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -16132,9 +16132,9 @@
         "confidence": "B",
         "relationship_to_poem": "Rossetti asks not to be preserved through compulsory grief; Emerson asks what kind of survival matters if personal remembrance fades.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/71393/71393-h/71393-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Michigan Library Digital Collections",
+          "url": "https://quod.lib.umich.edu/e/emerson/4957107.0008.001/1:18.11?rgn=div2&view=fulltext",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -16201,9 +16201,9 @@
         "confidence": "A",
         "relationship_to_poem": "Crane turns forgetfulness into poetic dislocation; James asks why forgetting may be essential to having a usable memory at all.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/57628/pg57628-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "York University — Classics in the History of Psychology",
+          "url": "https://psychclassics.yorku.ca/James/Principles/index.htm",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -16270,9 +16270,9 @@
         "confidence": "A",
         "relationship_to_poem": "Smith's harbor monument carries national memory into a contemporary landscape; Ruskin asks what ethical relationship monuments should have to the past.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24589637M/The_stones_of_Venice",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -16546,9 +16546,9 @@
         "confidence": "B",
         "relationship_to_poem": "Dove's mother moves from caregiver to worker and remembered figure; Addams gives a prose account of duty changing as generations age.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/1325/pg1325-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Pennsylvania — A Celebration of Women Writers",
+          "url": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -17029,9 +17029,9 @@
         "confidence": "A",
         "relationship_to_poem": "Rossetti imagines remembrance after separation and death; Lamb shows how affection itself is rewritten by retrospective memory.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -17098,9 +17098,9 @@
         "confidence": "B",
         "relationship_to_poem": "Frost makes beauty inseparable from transience; Ruskin asks why material deterioration sometimes intensifies rather than destroys aesthetic value.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24589637M/The_stones_of_Venice",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -17305,9 +17305,9 @@
         "confidence": "A",
         "relationship_to_poem": "Collins's lanyard contains a mother-child era in one object; Proust offers the canonical prose demonstration of an object unlocking a whole past.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/7178/pg7178-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Swann%27s_Way",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -17443,9 +17443,9 @@
         "confidence": "A",
         "relationship_to_poem": "Haaland asks why return is never simple reversal; Hazlitt explains how leaving alters the person who eventually comes back.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/3020/pg3020-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Table-Talk/Volume_2/Essay_3",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -17581,9 +17581,9 @@
         "confidence": "A",
         "relationship_to_poem": "Heaney turns his father's and grandfather's labor into family mythology; Addams shows the same process occurring consciously in prose.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/1325/pg1325-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Pennsylvania — A Celebration of Women Writers",
+          "url": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -17995,9 +17995,9 @@
         "confidence": "A",
         "relationship_to_poem": "Frost's harvest cycle blurs labor, dream, and recurrence; James shows why repeated action can come to feel like a second nature.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/57628/pg57628-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "York University — Classics in the History of Psychology",
+          "url": "https://psychclassics.yorku.ca/James/Principles/prin4.htm",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -18064,9 +18064,9 @@
         "confidence": "A",
         "relationship_to_poem": "Manfred asks what remains after decades; Stevenson reflects on friendship as a relationship with both the present person and their remembered selves.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -18409,9 +18409,9 @@
         "confidence": "A",
         "relationship_to_poem": "Patmore's toys become emotionally charged after loss; Lamb shows how objects acquire value from remembered life rather than material worth.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 4 uses"
@@ -18478,9 +18478,9 @@
         "confidence": "A",
         "relationship_to_poem": "Olds revisits a moment before her own conception to reinterpret the self that resulted; James supplies the psychological problem of identity across time.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/57628/pg57628-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "York University — Classics in the History of Psychology",
+          "url": "https://psychclassics.yorku.ca/James/Principles/index.htm",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -18547,9 +18547,9 @@
         "confidence": "B",
         "relationship_to_poem": "Frost's unused graveyard becomes strange because its social function has faded; Lamb provides a more inhabited relationship between memory and burial place.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/10343/10343-h/10343-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7034024M/The_essays_of_Elia",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -18616,9 +18616,9 @@
         "confidence": "A",
         "relationship_to_poem": "Roethke's father is bodily remembered through rhythm and movement; Gosse examines the longer process of separating from and recognizing a parent within oneself.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/2540/pg2540-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7179500M/Father_and_son",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -18754,9 +18754,9 @@
         "confidence": "A",
         "relationship_to_poem": "Dickinson makes haunting an internal archive; Ruskin asks what external traces must be saved so the past can continue to confront us.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24589637M/The_stones_of_Venice",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -18961,9 +18961,9 @@
         "confidence": "A",
         "relationship_to_poem": "Novey imagines returning decades later as a changed person; Stevenson shows how one can become foreign even within home.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/381/pg381-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Robert Louis Stevenson",
+          "url": "https://robert-louis-stevenson.org/works/memories-and-portraits-1887/",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 3 uses"
@@ -19375,9 +19375,9 @@
         "confidence": "A",
         "relationship_to_poem": "Lowell's monument becomes a contested site of national memory; Ruskin asks what architecture owes to the dead and to future viewers.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24589637M/The_stones_of_Venice",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -19582,9 +19582,9 @@
         "confidence": "B",
         "relationship_to_poem": "Lee's city is intimate, migratory, and haunted rather than monumental; Gibbon provides the long historical view of cities surviving as memory and ruin.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/25717/pg25717-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Christian Classics Ethereal Library",
+          "url": "https://www.ccel.org/g/gibbon/decline/volume2/chap71.htm",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -20341,9 +20341,9 @@
         "confidence": "B",
         "relationship_to_poem": "Limón makes forgiveness conditional and relational; Seneca asks whether release is ultimately a change in the giver's own relationship to the debt.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3794/3794-h/3794-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_Benefits",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation/source",
         "work_status": "REUSED WORK — 2 uses"
@@ -20548,9 +20548,9 @@
         "confidence": "B",
         "relationship_to_poem": "Wright's blessing arrives through unexpected closeness; Du Bois gives a social-scale account of why genuine reconciliation requires transformation rather than amnesia.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/408/408-h/408-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Souls_of_Black_Folk_%282nd_ed%29",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -21100,9 +21100,9 @@
         "confidence": "A",
         "relationship_to_poem": "Keats's first encounter with Homer feels like discovering an immeasurable new world; Pascal makes that encounter with scale explicitly philosophical.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/18269/pg18269-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Christian Classics Ethereal Library",
+          "url": "https://www.ccel.org/ccel/pascal/pensees.all.html",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -21238,9 +21238,9 @@
         "confidence": "A",
         "relationship_to_poem": "Hopkins's peace is elusive and active rather than empty quiet; Kant scales that intuition from the soul to relations among states.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/50922/pg50922-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Perpetual_Peace",
+          "url_qa": "PASS — VERIFIED EXACT NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -21514,9 +21514,9 @@
         "confidence": "A",
         "relationship_to_poem": "Vuong's poem thinks through craft from inside the act of writing; Ruskin widens craft into an ethic of making that values the maker as much as polish.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24340633M/The_nature_of_Gothic",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -22411,9 +22411,9 @@
         "confidence": "A",
         "relationship_to_poem": "Harjo's grace arrives as something given rather than deserved; Seneca asks what giving means once strict equivalence is abandoned.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3794/3794-h/3794-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_Benefits",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation/source",
         "work_status": "UNIQUE"
@@ -22549,9 +22549,9 @@
         "confidence": "B",
         "relationship_to_poem": "Parker turns suicide and mortality into black comedy; Browne offers an older prose tradition in which death is contemplated without surrendering verbal vitality.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/586/pg586-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "University of Toronto — Renascence Editions",
+          "url": "https://emls.artsci.utoronto.ca/iemls/resour/mirrors/rbearold/browne/medici.html",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -22756,9 +22756,9 @@
         "confidence": "B",
         "relationship_to_poem": "Gilbert distinguishes failure from the worth of having loved; Seneca adds the harder relational question of what repair asks from the person who caused harm.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3794/3794-h/3794-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_Benefits",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation/source",
         "work_status": "REUSED WORK — 2 uses"
@@ -23032,9 +23032,9 @@
         "confidence": "A",
         "relationship_to_poem": "Harjo maps survival through relations extending beyond the individual; Du Bois makes that interdependence social and historical rather than merely sentimental.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/408/408-h/408-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Souls_of_Black_Folk_%282nd_ed%29",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -23239,9 +23239,9 @@
         "confidence": "B",
         "relationship_to_poem": "Nye's red brocade extends welcome past fear of scarcity; the ancient guest-host ethic makes hospitality a duty precisely before the stranger has been made safe or familiar.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/1727/pg1727-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/The_Odyssey_%28Butler%29/Book_VI",
+          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation",
         "work_status": "UNIQUE"
@@ -23308,9 +23308,9 @@
         "confidence": "A",
         "relationship_to_poem": "Stevens's maker orders a chaotic sea without conquering it; Ruskin asks how form can be created without demanding lifeless perfection.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/15200/pg15200-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24340633M/The_nature_of_Gothic",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -23860,9 +23860,9 @@
         "confidence": "B",
         "relationship_to_poem": "Szymborska begins after devastation with the labor of clearing and rebuilding; Nietzsche gives the broader aesthetic paradox that making often grows from rupture.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/51356/pg51356-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7176985M/The_birth_of_tragedy_or_Hellenism_and_pessimism",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation where applicable",
         "work_status": "UNIQUE"
@@ -24067,9 +24067,9 @@
         "confidence": "A",
         "relationship_to_poem": "Gay's small fact restores dignity through an ordinary act of care; Seneca asks what generosity becomes when the gift is not a transaction.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/files/3794/3794-h/3794-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/On_Benefits",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain translation/source",
         "work_status": "UNIQUE"
@@ -24412,9 +24412,9 @@
         "confidence": "B",
         "relationship_to_poem": "Gilbert defends joy even while acknowledging catastrophe; Lubbock supplies an intentionally affirmative inventory of what deserves celebration without needing to justify its utility.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/7952/pg7952-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/works/OL1532351W/The_pleasures_of_life",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -24964,9 +24964,9 @@
         "confidence": "A",
         "relationship_to_poem": "Laux asks where the beloved friend can be found amid loss; Hazlitt asks the broader question of why human beings remain attached to existence despite suffering.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/cache/epub/3020/pg3020-images.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL7065639M/The_Round_table",
+          "url_qa": "PASS — VERIFIED WORK-LEVEL NON-GUTENBERG SOURCE"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
