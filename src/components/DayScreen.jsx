@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import AppTabs from "./AppTabs";
 import ArtworkCard from "./ArtworkCard";
 import CompletionPanel from "./CompletionPanel";
 import DayNavigator from "./DayNavigator";
+import FavoriteButton from "./FavoriteButton";
 import MediaCard from "./MediaCard";
 import ReflectionPanel from "./ReflectionPanel";
 
@@ -10,14 +12,18 @@ export default function DayScreen({
   totalDays,
   onOpenDay,
   onHome,
+  onCalendar,
   completed,
   started,
+  favorite,
+  favoriteCount,
   completedCount,
   reflection,
   onReflectionChange,
   onBegin,
   onResetDay,
-  onToggleComplete
+  onToggleComplete,
+  onToggleFavorite
 }) {
   useEffect(() => {
     document.title = `Day ${content.day} — ${content.theme.motif} · 365`;
@@ -31,16 +37,21 @@ export default function DayScreen({
     content.poem.form,
     content.poem.date_era,
     content.poem.tradition_region
-  ]
-    .filter(Boolean)
-    .join(" · ");
+  ].filter(Boolean).join(" · ");
 
   return (
     <main className="dayShell">
       <header className="dayHeader">
-        <button className="wordmark" onClick={onHome} aria-label="365 home">
-          365
-        </button>
+        <button className="wordmark" onClick={onHome} aria-label="365 home">365</button>
+
+        <div className="dayHeaderCenter">
+          <AppTabs
+            active="day"
+            onHome={onHome}
+            onCalendar={onCalendar}
+            favoriteCount={favoriteCount}
+          />
+        </div>
 
         <div className="headerStatus">
           {completed ? (
@@ -48,9 +59,7 @@ export default function DayScreen({
           ) : started ? (
             <span className="progressPill">In progress</span>
           ) : null}
-          <div className="headerDay">
-            Day {content.day} / {totalDays}
-          </div>
+          <div className="headerDay">Day {content.day} / {totalDays}</div>
         </div>
 
         <div className="yearProgress" aria-hidden="true">
@@ -65,13 +74,17 @@ export default function DayScreen({
         </aside>
 
         <div className="dayIntroContent">
-          <div className="partLabel">
-            <span>{content.part.code}</span>
-            <span>{content.part.name}</span>
-          </div>
-
-          <div className="partProgress" aria-hidden="true">
-            <span style={{ width: `${partProgress}%` }} />
+          <div className="dayIntroTop">
+            <div>
+              <div className="partLabel">
+                <span>{content.part.code}</span>
+                <span>{content.part.name}</span>
+              </div>
+              <div className="partProgress" aria-hidden="true">
+                <span style={{ width: `${partProgress}%` }} />
+              </div>
+            </div>
+            <FavoriteButton favorite={favorite} onToggle={onToggleFavorite} />
           </div>
 
           <p className="motif">{content.theme.motif}</p>
@@ -141,7 +154,7 @@ export default function DayScreen({
 
       <footer className="dayFooter">
         <span>{content.part.label}</span>
-        <span>Day {content.day}</span>
+        <span>{favorite ? "★ Favorite · " : ""}Day {content.day}</span>
       </footer>
     </main>
   );

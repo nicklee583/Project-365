@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import AppTabs from "./AppTabs";
 import { getFirstIncompleteDay } from "../lib/progress";
 import { countUnfinished } from "../lib/journey";
 
@@ -12,10 +13,13 @@ const MOVEMENTS = [
 
 export default function HomeScreen({
   onOpenDay,
+  onHome,
+  onCalendar,
   totalDays,
   lastDayKey,
   completedDays,
-  startedDays
+  startedDays,
+  favoriteDays
 }) {
   const [continueDay, setContinueDay] = useState(1);
 
@@ -39,6 +43,16 @@ export default function HomeScreen({
   return (
     <main className="homeShell">
       <section className="homeHero">
+        <div className="homeNavRow">
+          <span className="homeEdition">Project 365</span>
+          <AppTabs
+            active="home"
+            onHome={onHome}
+            onCalendar={onCalendar}
+            favoriteCount={favoriteDays.length}
+          />
+        </div>
+
         <div className="homeTopline">
           <p className="eyebrow">A daily practice in attention</p>
           <span>Poem · Essay · Art · Reflection</span>
@@ -58,21 +72,13 @@ export default function HomeScreen({
         </p>
 
         <div className="homeActions">
-          <button
-            className="primaryButton"
-            onClick={() => onOpenDay(continueDay)}
-          >
-            {continueDay === 1
-              ? "Begin with Day 1"
-              : `Continue Day ${continueDay}`}
+          <button className="primaryButton" onClick={() => onOpenDay(continueDay)}>
+            {continueDay === 1 ? "Begin with Day 1" : `Continue Day ${continueDay}`}
             <span aria-hidden="true">→</span>
           </button>
 
           {completedCount > 0 && completedCount < totalDays ? (
-            <button
-              className="secondaryButton"
-              onClick={() => onOpenDay(firstIncomplete)}
-            >
+            <button className="secondaryButton" onClick={() => onOpenDay(firstIncomplete)}>
               Next unfinished day
             </button>
           ) : null}
@@ -96,6 +102,12 @@ export default function HomeScreen({
           <div className="homeProgressTrack">
             <span style={{ width: `${progress}%` }} />
           </div>
+
+          <button className="homeCalendarLink" type="button" onClick={onCalendar}>
+            <span>Open calendar</span>
+            <strong>{favoriteDays.length} favorite{favoriteDays.length === 1 ? "" : "s"}</strong>
+            <span aria-hidden="true">↗</span>
+          </button>
         </section>
 
         <div className="movementStrip" aria-label="Five movements">

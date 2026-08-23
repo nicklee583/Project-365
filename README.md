@@ -1,38 +1,35 @@
-# 365 — A Daily Reflection · V3
+# Project 365 — App V4
 
-V3 adds the personal ritual layer to the live 365-day poem / essay / art app while retaining the production dataset and GitHub Pages deployment.
+V4 keeps the production 365-day poem / essay / art dataset and the V3 reflection/completion system, while adding a darker visual identity, a separate Calendar tab, and favorite days.
 
-## New in V3
+## New in V4
 
-- richer maroon + phthalo-green editorial design;
-- redesigned home screen and five-movement visual strip;
-- redesigned day hierarchy and media cards;
-- private Daily Reflection on every day;
-- reflections autosave to the current browser/device;
-- opening a day marks it `In progress` until completed;
-- `Reset this day` safely clears an unfinished day after confirmation;
-- reset removes only that day's reflection, completion flag, and in-progress flag;
-- completing a day still contributes to the 365-day progress count;
-- artwork links remain the primary art experience; direct images remain optional.
+- **Calendar tab** — separate top-level view of all 365 days, grouped by the five movements.
+- **Calendar filters** — All Days, Favorites, Completed, and In Progress.
+- **Favorite a day** — use the star control on a Day page when the poem / essay / art combination is worth keeping.
+- **Favorites persist locally** using browser `localStorage`.
+- **Calendar status states** show completed, in-progress, and favorite days distinctly.
+- **Mahogany Night visual system** — darker mahogany surfaces combined with maroon, phthalo green, cream typography, and muted gold favorite accents.
+- Existing Daily Reflection, Reset Day, completion tracking, and GitHub Pages deployment are retained.
 
-## Local browser data
-
-The app currently uses three localStorage records:
+## Local storage keys
 
 - `365:completed-days`
 - `365:started-days`
 - `365:reflections`
+- `365:favorite-days`
+- `365:last-day`
 
-Nothing is sent to a server yet.
+Resetting an unfinished day removes that day's reflection/completion/in-progress state but **does not remove its favorite status**.
 
-## Reset behavior
+## URLs
 
-The app does **not** automatically erase an unfinished reflection when the user advances to a new day. That would risk losing writing.
+- Home: `/?`
+- Calendar: `/?view=calendar`
+- Day: `/?day=42`
 
-Instead, unfinished days remain marked `In progress`. The user can return and press `Reset this day`, which asks for confirmation before deleting that day's saved reflection and state.
+The query-string approach remains compatible with GitHub Pages.
 
-## GitHub Pages
+## GitHub Pages update
 
-The existing deployment workflow remains in `.github/workflows/deploy-pages.yml`.
-
-Replace your current repository files with this V3 package and commit to `main`. GitHub Actions should rebuild and redeploy the site automatically.
+Replace the current app files with this repository version and commit to `main`. The existing `Deploy 365 App to GitHub Pages` workflow will rebuild and deploy the site automatically.
