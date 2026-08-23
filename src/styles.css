@@ -124,7 +124,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .homeTitle {
   margin: 0;
   color: var(--maroon-dark);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: clamp(105px, 22vw, 220px);
   line-height: .68;
   letter-spacing: -.075em;
@@ -146,7 +146,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .homeTitleSide p {
   margin: 0;
   max-width: 310px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: clamp(28px, 4.2vw, 45px);
   line-height: 1.01;
 }
@@ -155,7 +155,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   max-width: 650px;
   margin: 0 0 34px;
   color: var(--muted);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 19px;
   line-height: 1.65;
 }
@@ -256,7 +256,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .movement:last-child { border-right: 0; }
 .movement span { color: var(--muted); font-size: 10px; font-weight: 700; }
-.movement strong { font-family: Georgia, "Times New Roman", serif; font-size: 14px; font-weight: 400; }
+.movement strong { font-family: var(--serif); font-size: 14px; font-weight: 400; }
 .movement i { position: absolute; inset: auto 12px 10px; height: 2px; }
 .movement i.maroon { background: var(--maroon); }
 .movement i.green { background: var(--phthalo); }
@@ -282,7 +282,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   padding: 0;
   width: fit-content;
   color: var(--maroon-dark);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 24px;
   cursor: pointer;
 }
@@ -338,7 +338,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   align-items: center;
   gap: 12px;
   color: var(--maroon);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 14px;
 }
 
@@ -366,7 +366,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .dayIntro h1 {
   max-width: 800px;
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: clamp(45px, 8vw, 82px);
   line-height: .98;
   letter-spacing: -.045em;
@@ -403,7 +403,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   right: 24px;
   top: 20px;
   color: var(--muted);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 13px;
 }
 
@@ -412,7 +412,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .mediaCard h2 {
   max-width: 700px;
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: clamp(35px, 6vw, 56px);
   line-height: 1.03;
   letter-spacing: -.035em;
@@ -429,7 +429,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   max-width: 700px;
   margin: 32px 0 0;
   color: #49443d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 18px;
   line-height: 1.68;
 }
@@ -457,7 +457,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   border: 1px solid var(--line);
   color: var(--maroon);
   background: linear-gradient(135deg, var(--maroon-soft), var(--phthalo-soft));
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 38px;
 }
 
@@ -503,7 +503,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 
 .reflectionOrnament span { height: 1px; background: rgba(255,250,240,.36); }
-.reflectionOrnament strong { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
+.reflectionOrnament strong { font-family: var(--serif); font-weight: 400; }
 
 .reflectionHeader {
   display: flex;
@@ -516,7 +516,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .reflectionHeader h2 {
   max-width: 590px;
   margin: 8px 0 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: clamp(34px, 6vw, 56px);
   line-height: 1.02;
   font-weight: 400;
@@ -529,7 +529,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   max-width: 650px;
   margin: 34px 0 14px;
   color: rgba(255,250,240,.73);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 17px;
   line-height: 1.55;
 }
@@ -546,7 +546,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   background: transparent;
   color: var(--cream);
   caret-color: #e7b0c2;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 20px;
   line-height: 1.7;
 }
@@ -580,7 +580,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .closingPrompt { padding: 96px 0 76px; }
 .closingRule { width: 46px; height: 3px; margin-bottom: 28px; background: linear-gradient(90deg, var(--maroon) 50%, var(--phthalo) 50%); }
 .closingPrompt p { color: var(--muted); font-size: 14px; }
-.closingPrompt blockquote { max-width: 690px; margin: 14px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(28px, 5vw, 44px); line-height: 1.12; }
+.closingPrompt blockquote { max-width: 690px; margin: 14px 0 0; font-family: var(--serif); font-size: clamp(28px, 5vw, 44px); line-height: 1.12; }
 
 .completionPanel {
   display: grid;
@@ -602,12 +602,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
   border: 1px solid currentColor;
   border-radius: 50%;
   color: var(--maroon);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 26px;
 }
 .isComplete .completionSeal { color: var(--phthalo); }
 
-.completionCopy h2 { margin: 7px 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(26px, 5vw, 38px); font-weight: 400; }
+.completionCopy h2 { margin: 7px 0; font-family: var(--serif); font-size: clamp(26px, 5vw, 38px); font-weight: 400; }
 .completionCopy > p:last-child { margin-bottom: 0; color: var(--muted); font-size: 13px; }
 
 .completionProgress { grid-column: 2; height: 4px; overflow: hidden; background: rgba(24, 23, 20, .10); }
@@ -941,7 +941,7 @@ body::before {
 .calendarHero h1 {
   margin: 0;
   color: #e3c0b6;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: clamp(70px, 14vw, 150px);
   line-height: .78;
   letter-spacing: -.065em;
@@ -951,7 +951,7 @@ body::before {
   max-width: 650px;
   margin: 34px 0 0;
   color: #c2b5a8;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 18px;
   line-height: 1.65;
 }
@@ -967,7 +967,7 @@ body::before {
 .calendarStats strong {
   display: block;
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 31px;
   font-weight: 400;
 }
@@ -1021,7 +1021,7 @@ body::before {
 .movementCalendar > header { display: flex; gap: 16px; align-items: flex-start; }
 .movementCalendar > header > span {
   color: #d193a6;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 28px;
 }
 .movementCalendar header p {
@@ -1035,7 +1035,7 @@ body::before {
 .movementCalendar header h2 {
   margin: 0;
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--serif);
   font-size: 23px;
   font-weight: 400;
 }
@@ -1066,7 +1066,7 @@ body::before {
 .calendarDay.isProgress { border-color: rgba(166,76,105,.35); background: rgba(90,45,34,.27); }
 .calendarDay.isComplete { border-color: rgba(63,139,114,.34); background: rgba(63,139,114,.14); }
 .calendarDay.isFavorite { box-shadow: inset 0 0 0 1px rgba(222,185,111,.40); }
-.calendarDayNumber { font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
+.calendarDayNumber { font-family: var(--serif); font-size: 17px; }
 .calendarDayMotif {
   overflow: hidden;
   color: var(--muted);
@@ -1087,7 +1087,7 @@ body::before {
   color: var(--muted);
 }
 .calendarEmpty > span { color: #dfb96f; font-size: 34px; }
-.calendarEmpty h2 { color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
+.calendarEmpty h2 { color: var(--ink); font-family: var(--serif); font-weight: 400; }
 
 @media (max-width: 900px) {
   .movementCalendar { grid-template-columns: 1fr; }
@@ -1519,4 +1519,477 @@ body::before {
 .artworkCard .sourceButton:hover {
   background: #a64c69;
   border-color: rgba(224, 161, 181, .65);
+}
+/* =========================================================
+   V5 — FINAL DARK ACADEMIA FINISH
+   Baskerville · sharper geometry · antique gold · archival
+   texture/rules · calendar refinement
+   ========================================================= */
+
+:root {
+  --serif: "Baskerville Old Face", Baskerville, "Iowan Old Style",
+    "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+
+  --antique-gold: #b79252;
+  --antique-gold-light: #cfb174;
+  --antique-gold-soft: rgba(183, 146, 82, .13);
+  --antique-gold-line: rgba(183, 146, 82, .42);
+
+  --archival-rule: rgba(207, 193, 170, .18);
+  --archival-rule-strong: rgba(207, 193, 170, .28);
+}
+
+/* Baskerville is reserved for the literary hierarchy. */
+.homeTitle,
+.homeTitleSide p,
+.wordmark,
+.partMarker,
+.dayIntro h1,
+.mediaCard h2,
+.cardBody,
+.reflectionOrnament strong,
+.reflectionHeader h2,
+.reflectionPrompt,
+.reflectionTextarea,
+.closingPrompt blockquote,
+.completionSeal,
+.completionCopy h2,
+.calendarHero h1,
+.calendarHero > p:last-child,
+.calendarStats strong,
+.movement strong,
+.movementCalendar > header > span,
+.movementCalendar header h2,
+.calendarDayNumber,
+.calendarEmpty h2 {
+  font-family: var(--serif);
+}
+
+.homeTitle,
+.calendarHero h1 {
+  letter-spacing: -.045em;
+}
+
+.dayIntro h1,
+.mediaCard h2 {
+  letter-spacing: -.025em;
+}
+
+.cardBody,
+.reflectionPrompt,
+.reflectionTextarea,
+.homeIntro {
+  font-kerning: normal;
+}
+
+/* Sharper, editorial geometry. Controls may remain pill-like where useful. */
+.homeHero,
+.mediaCard,
+.reflectionPanel,
+.completionPanel,
+.calendarHeader,
+.movementCalendar,
+.calendarEmpty,
+.artworkFigure {
+  border-radius: 0;
+}
+
+.calendarDay {
+  border-radius: 1px;
+}
+
+.homeHero,
+.mediaCard,
+.calendarHeader,
+.movementCalendar,
+.reflectionPanel,
+.completionPanel {
+  box-shadow:
+    0 26px 80px rgba(0,0,0,.17),
+    inset 0 1px 0 rgba(255,255,255,.015);
+}
+
+/* Fine archival paper / book-cloth texture, deliberately faint. */
+body::before {
+  opacity: .16;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(244,234,219,.026) 0,
+      rgba(244,234,219,.026) 1px,
+      transparent 1px,
+      transparent 5px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0,0,0,.018) 0,
+      rgba(0,0,0,.018) 1px,
+      transparent 1px,
+      transparent 7px
+    );
+  mix-blend-mode: soft-light;
+}
+
+.homeHero,
+.mediaCard,
+.movementCalendar {
+  background-image:
+    linear-gradient(145deg, rgba(49,37,31,.96), rgba(34,27,24,.96)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,.012) 0,
+      rgba(255,255,255,.012) 1px,
+      transparent 1px,
+      transparent 6px
+    );
+}
+
+/* Small typographic rules: enough to feel printed, not ornamental costume. */
+.cardKicker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cardKicker::after {
+  content: "";
+  width: 44px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--archival-rule-strong), transparent);
+}
+
+.dayIntroContent::after {
+  content: "";
+  display: block;
+  width: min(180px, 42%);
+  height: 1px;
+  margin-top: 38px;
+  background: linear-gradient(
+    90deg,
+    var(--phthalo),
+    rgba(117,180,159,.18) 64%,
+    transparent
+  );
+}
+
+.closingRule {
+  height: 1px;
+  width: 74px;
+  background:
+    linear-gradient(
+      90deg,
+      var(--maroon) 0 43%,
+      transparent 43% 49%,
+      var(--phthalo) 49% 92%,
+      transparent 92%
+    );
+}
+
+/* Antique gold is reserved for saved/favorite state. */
+.favoriteButton {
+  border-color: var(--antique-gold-line);
+  border-radius: 2px;
+  background: rgba(183,146,82,.035);
+  color: #bba982;
+}
+
+.favoriteButton:hover {
+  border-color: rgba(207,177,116,.60);
+  color: var(--antique-gold-light);
+  background: rgba(183,146,82,.075);
+}
+
+.favoriteButton.isFavorite {
+  border-color: rgba(207,177,116,.70);
+  background: var(--antique-gold-soft);
+  color: var(--antique-gold-light);
+  box-shadow: inset 0 0 0 1px rgba(183,146,82,.06);
+}
+
+.favoriteStarIcon,
+.legendFavoriteIcon,
+.calendarStar,
+.calendarEmptyStar {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.45;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.favoriteStarIcon {
+  width: 17px;
+  height: 17px;
+}
+
+.favoriteButton.isFavorite .favoriteStarIcon,
+.legendFavoriteIcon,
+.calendarStar {
+  fill: currentColor;
+}
+
+.appTabs small,
+.homeCalendarLink strong,
+.footerFavorite {
+  color: var(--antique-gold-light);
+}
+
+.footerFavorite {
+  letter-spacing: .08em;
+}
+
+/* Keep the remaining home-calendar arrow consistent with source buttons. */
+.homeCalendarArrow {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform .18s ease;
+}
+
+.homeCalendarLink:hover .homeCalendarArrow {
+  transform: translate(2px, -2px);
+}
+
+/* Editorial tab treatment: still compact, less app-pill-like. */
+.appTabs {
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.appTabs button {
+  border-radius: 1px;
+}
+
+.calendarFilterRow button {
+  border-radius: 2px;
+}
+
+/* Calendar as a manuscript index rather than a dashboard. */
+.calendarHeader {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(63,139,114,.22), transparent 29rem),
+    linear-gradient(145deg, rgba(25,58,48,.92), rgba(31,23,20,.985));
+}
+
+.calendarHeader::after {
+  content: "";
+  position: absolute;
+  left: clamp(26px, 5vw, 52px);
+  right: clamp(26px, 5vw, 52px);
+  bottom: 12px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(117,180,159,.28) 18%,
+    rgba(117,180,159,.28) 82%,
+    transparent
+  );
+  pointer-events: none;
+}
+
+.calendarStats div {
+  position: relative;
+}
+
+.calendarStats div::after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  bottom: 12px;
+  width: 22px;
+  height: 1px;
+  background: rgba(117,180,159,.34);
+}
+
+.calendarLegend {
+  padding: 13px 0;
+  border-top: 1px solid rgba(117,180,159,.10);
+  border-bottom: 1px solid rgba(117,180,159,.10);
+}
+
+.legendFavoriteIcon {
+  width: 11px;
+  height: 11px;
+  color: var(--antique-gold-light);
+}
+
+.movementCalendars {
+  gap: 24px;
+}
+
+.movementCalendar {
+  grid-template-columns: 168px 1fr;
+  gap: 30px;
+  padding: 28px;
+  border-left: 2px solid rgba(117,180,159,.30);
+  background:
+    linear-gradient(90deg, rgba(11,79,60,.075), transparent 22%),
+    rgba(31,25,22,.88);
+}
+
+.movementCalendar > header {
+  position: relative;
+  padding-bottom: 18px;
+}
+
+.movementCalendar > header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(117,180,159,.55), transparent);
+}
+
+.movementCalendar > header > span {
+  color: #9bcdbd;
+  font-size: 30px;
+}
+
+.movementCalendar header h2 {
+  font-size: 24px;
+  line-height: 1.05;
+}
+
+.dayGrid {
+  gap: 5px;
+}
+
+.calendarDay {
+  min-height: 78px;
+  padding: 10px 9px;
+  border-color: rgba(244,234,219,.09);
+  background: rgba(255,255,255,.018);
+  box-shadow: none;
+}
+
+.calendarDay:hover {
+  transform: none;
+  border-color: rgba(117,180,159,.38);
+  background: rgba(63,139,114,.07);
+}
+
+.calendarDay.isProgress {
+  border-color: rgba(166,76,105,.34);
+  background:
+    linear-gradient(135deg, rgba(90,45,34,.27), rgba(11,79,60,.07));
+  box-shadow: inset 2px 0 0 rgba(166,76,105,.55);
+}
+
+.calendarDay.isComplete {
+  border-color: rgba(117,180,159,.38);
+  background: rgba(63,139,114,.13);
+  box-shadow: inset 2px 0 0 rgba(117,180,159,.62);
+}
+
+.calendarDay.isFavorite {
+  border-color: rgba(183,146,82,.40);
+  box-shadow:
+    inset 0 1px 0 var(--antique-gold-line),
+    inset 2px 0 0 rgba(183,146,82,.32);
+}
+
+.calendarDay.isComplete.isFavorite {
+  box-shadow:
+    inset 0 1px 0 var(--antique-gold-line),
+    inset 2px 0 0 rgba(117,180,159,.62);
+}
+
+.calendarDayNumber {
+  font-size: 19px;
+  color: #efe4d3;
+}
+
+.calendarDayMotif {
+  color: #9e9387;
+  font-size: 7.5px;
+  letter-spacing: .075em;
+}
+
+.calendarStar {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 11px;
+  height: 11px;
+  color: var(--antique-gold-light);
+}
+
+.calendarEmptyStar {
+  width: 32px;
+  height: 32px;
+  color: var(--antique-gold-light);
+  margin-bottom: 10px;
+}
+
+/* Sharpen the major section hierarchy without darkening it further. */
+.mediaCard {
+  border-color: rgba(207,193,170,.15);
+}
+
+.poemCard {
+  border-left-color: rgba(208,138,161,.36);
+}
+
+.essayCard {
+  border-left-color: rgba(117,180,159,.36);
+}
+
+.artworkCard {
+  border-left-color: rgba(166,76,105,.34);
+}
+
+.reflectionPanel {
+  border-left: 2px solid rgba(117,180,159,.45);
+}
+
+.completionPanel {
+  border-left: 2px solid rgba(117,180,159,.28);
+}
+
+@media (max-width: 900px) {
+  .movementCalendar {
+    grid-template-columns: 1fr;
+  }
+
+  .movementCalendar > header {
+    padding-bottom: 14px;
+  }
+}
+
+@media (max-width: 680px) {
+  .homeHero,
+  .calendarHeader,
+  .movementCalendar,
+  .mediaCard,
+  .reflectionPanel,
+  .completionPanel {
+    box-shadow: 0 18px 50px rgba(0,0,0,.14);
+  }
+
+  .calendarDay {
+    min-height: 68px;
+  }
+
+  .favoriteButton {
+    width: fit-content;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .homeCalendarArrow {
+    transition: none;
+  }
+
+  .homeCalendarLink:hover .homeCalendarArrow {
+    transform: none;
+  }
 }

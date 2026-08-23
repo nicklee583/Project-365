@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import AppTabs from "./AppTabs";
+import { ArrowUpRightIcon } from "./Icons";
 import { getFirstIncompleteDay } from "../lib/progress";
 import { countUnfinished } from "../lib/journey";
 
@@ -106,7 +107,7 @@ export default function HomeScreen({
           <button className="homeCalendarLink" type="button" onClick={onCalendar}>
             <span>Open calendar</span>
             <strong>{favoriteDays.length} favorite{favoriteDays.length === 1 ? "" : "s"}</strong>
-            <span aria-hidden="true">↗</span>
+            <ArrowUpRightIcon className="homeCalendarArrow" />
           </button>
         </section>
 

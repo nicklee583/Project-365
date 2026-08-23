@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import AppTabs from "./AppTabs";
+import { StarIcon } from "./Icons";
 import { getAllDays } from "../lib/content";
 
 const FILTERS = [
@@ -103,7 +104,7 @@ export default function CalendarScreen({
       <div className="calendarLegend" aria-label="Calendar legend">
         <span><i className="legendComplete" />Completed</span>
         <span><i className="legendProgress" />In progress</span>
-        <span><i className="legendFavorite">★</i>Favorite</span>
+        <span><StarIcon className="legendFavoriteIcon" filled />Favorite</span>
       </div>
 
       <section className="movementCalendars">
@@ -143,7 +144,7 @@ export default function CalendarScreen({
                     >
                       <span className="calendarDayNumber">{entry.day}</span>
                       <span className="calendarDayMotif">{entry.theme.motif}</span>
-                      {isFavorite ? <span className="calendarStar" aria-hidden="true">★</span> : null}
+                      {isFavorite ? <StarIcon className="calendarStar" filled /> : null}
                     </button>
                   );
                 })}
@@ -154,7 +155,7 @@ export default function CalendarScreen({
 
         {visibleCount === 0 ? (
           <div className="calendarEmpty">
-            <span>☆</span>
+            <StarIcon className="calendarEmptyStar" />
             <h2>Nothing here yet.</h2>
             <p>Favorite or complete a day and it will appear in this view.</p>
           </div>

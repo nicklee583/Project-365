@@ -22,7 +22,7 @@ export default function AppTabs({
         aria-current={active === "calendar" ? "page" : undefined}
       >
         <span>Calendar</span>
-        {favoriteCount > 0 ? <small>{favoriteCount} ★</small> : null}
+        {favoriteCount > 0 ? <small>{favoriteCount} saved</small> : null}
       </button>
     </nav>
   );

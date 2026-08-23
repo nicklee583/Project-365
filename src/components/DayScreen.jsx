@@ -154,7 +154,7 @@ export default function DayScreen({
 
       <footer className="dayFooter">
         <span>{content.part.label}</span>
-        <span>{favorite ? "★ Favorite · " : ""}Day {content.day}</span>
+        <span className={favorite ? "footerFavorite" : ""}>{favorite ? "Favorite · " : ""}Day {content.day}</span>
       </footer>
     </main>
   );

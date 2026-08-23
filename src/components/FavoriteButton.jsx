@@ -1,3 +1,5 @@
+import { StarIcon } from "./Icons";
+
 export default function FavoriteButton({ favorite, onToggle }) {
   return (
     <button
@@ -7,7 +9,7 @@ export default function FavoriteButton({ favorite, onToggle }) {
       aria-pressed={favorite}
       aria-label={favorite ? "Remove this day from favorites" : "Favorite this day"}
     >
-      <span aria-hidden="true">{favorite ? "★" : "☆"}</span>
+      <StarIcon className="favoriteStarIcon" filled={favorite} />
       <strong>{favorite ? "Favorited" : "Favorite day"}</strong>
     </button>
   );

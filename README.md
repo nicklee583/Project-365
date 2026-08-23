@@ -33,3 +33,16 @@ The query-string approach remains compatible with GitHub Pages.
 ## GitHub Pages update
 
 Replace the current app files with this repository version and commit to `main`. The existing `Deploy 365 App to GitHub Pages` workflow will rebuild and deploy the site automatically.
+
+---
+
+## V5 visual finish
+
+V5 establishes the final dark-academia visual language:
+- Baskerville-first literary typography;
+- sharp editorial surfaces;
+- antique-gold favorites;
+- subtle archival texture and rules;
+- manuscript-inspired Calendar styling.
+
+All user-state storage and the 365-day content schema remain backward compatible.
