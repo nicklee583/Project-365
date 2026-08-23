@@ -1478,3 +1478,45 @@ body::before {
     padding-left: 2px;
   }
 }
+/* =========================================================
+   V4.3 — DARK ACADEMIA EXTERNAL-LINK ARROW
+   ========================================================= */
+
+.sourceButtonIcon {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform .18s ease;
+}
+
+.sourceButton:hover .sourceButtonIcon {
+  transform: translate(2px, -2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sourceButtonIcon {
+    transition: none;
+  }
+
+  .sourceButton:hover .sourceButtonIcon {
+    transform: none;
+  }
+}
+/* =========================================================
+   V4.4 — MAROON ARTWORK ACTION
+   ========================================================= */
+
+.artworkCard .sourceButton {
+  background: var(--maroon);
+  border-color: rgba(212, 135, 159, .34);
+}
+
+.artworkCard .sourceButton:hover {
+  background: #a64c69;
+  border-color: rgba(224, 161, 181, .65);
+}
