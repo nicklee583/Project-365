@@ -1,50 +1,38 @@
-# 365 — A Daily Reflection · App V2
+# 365 — A Daily Reflection · V3
 
-This version keeps the final 365-day poem / essay / art production dataset and adds the first user-state and visual-design layer.
+V3 adds the personal ritual layer to the live 365-day poem / essay / art app while retaining the production dataset and GitHub Pages deployment.
 
-## New in V2
+## New in V3
 
-- completed-day tracking stored in browser `localStorage`;
-- completed count and progress bar on the home screen;
-- "Next unfinished day" shortcut;
-- mark / unmark a day as complete;
-- completed status on the Day screen;
-- maroon + phthalo-green visual system over warm paper tones;
-- artwork card now supports direct in-app images through `art.image_url`;
-- graceful artwork placeholder until a vetted image URL is supplied.
+- richer maroon + phthalo-green editorial design;
+- redesigned home screen and five-movement visual strip;
+- redesigned day hierarchy and media cards;
+- private Daily Reflection on every day;
+- reflections autosave to the current browser/device;
+- opening a day marks it `In progress` until completed;
+- `Reset this day` safely clears an unfinished day after confirmation;
+- reset removes only that day's reflection, completion flag, and in-progress flag;
+- completing a day still contributes to the 365-day progress count;
+- artwork links remain the primary art experience; direct images remain optional.
 
-## Important: completion data
+## Local browser data
 
-Completion is currently **local to the browser/device**. It does not require login and is not synced across devices yet.
+The app currently uses three localStorage records:
 
-The storage key is:
+- `365:completed-days`
+- `365:started-days`
+- `365:reflections`
 
-`365:completed-days`
+Nothing is sent to a server yet.
 
-A later Supabase/account version can move the same completed-day model to the cloud.
+## Reset behavior
 
-## Artwork image support
+The app does **not** automatically erase an unfinished reflection when the user advances to a new day. That would risk losing writing.
 
-Each day now supports:
-
-```json
-"art": {
-  "title": "...",
-  "artist_or_culture": "...",
-  "source": {
-    "name": "...",
-    "url": "..."
-  },
-  "image_url": null
-}
-```
-
-When `image_url` contains a vetted HTTP(S) image URL, the artwork appears directly in the app. When it is `null`, the app keeps the current source link and shows a designed placeholder.
-
-This is intentional: do not use museum page URLs as image URLs, and do not hotlink arbitrary images without checking source reliability and usage rights.
+Instead, unfinished days remain marked `In progress`. The user can return and press `Reset this day`, which asks for confirmation before deleting that day's saved reflection and state.
 
 ## GitHub Pages
 
-The existing GitHub Pages deployment workflow is retained.
+The existing deployment workflow remains in `.github/workflows/deploy-pages.yml`.
 
-Upload/replace the project files in the repo and commit to `main`; the Pages workflow will rebuild and redeploy automatically.
+Replace your current repository files with this V3 package and commit to `main`. GitHub Actions should rebuild and redeploy the site automatically.

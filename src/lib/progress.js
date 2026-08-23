@@ -34,6 +34,12 @@ export function toggleCompletedDay(days, day) {
   return saveCompletedDays([...current]);
 }
 
+export function removeCompletedDay(days, day) {
+  return saveCompletedDays(
+    normalizeDays(days).filter((item) => item !== Number(day))
+  );
+}
+
 export function isDayComplete(days, day) {
   return normalizeDays(days).includes(Number(day));
 }

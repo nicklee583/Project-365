@@ -3,6 +3,7 @@ import ArtworkCard from "./ArtworkCard";
 import CompletionPanel from "./CompletionPanel";
 import DayNavigator from "./DayNavigator";
 import MediaCard from "./MediaCard";
+import ReflectionPanel from "./ReflectionPanel";
 
 export default function DayScreen({
   content,
@@ -10,7 +11,12 @@ export default function DayScreen({
   onOpenDay,
   onHome,
   completed,
+  started,
   completedCount,
+  reflection,
+  onReflectionChange,
+  onBegin,
+  onResetDay,
   onToggleComplete
 }) {
   useEffect(() => {
@@ -37,7 +43,11 @@ export default function DayScreen({
         </button>
 
         <div className="headerStatus">
-          {completed ? <span className="completePill">Completed</span> : null}
+          {completed ? (
+            <span className="completePill">Completed</span>
+          ) : started ? (
+            <span className="progressPill">In progress</span>
+          ) : null}
           <div className="headerDay">
             Day {content.day} / {totalDays}
           </div>
@@ -49,18 +59,25 @@ export default function DayScreen({
       </header>
 
       <section className="dayIntro">
-        <div className="partLabel">
+        <aside className="partMarker" aria-hidden="true">
           <span>{content.part.code}</span>
-          <span>{content.part.name}</span>
-        </div>
+          <i />
+        </aside>
 
-        <div className="partProgress" aria-hidden="true">
-          <span style={{ width: `${partProgress}%` }} />
-        </div>
+        <div className="dayIntroContent">
+          <div className="partLabel">
+            <span>{content.part.code}</span>
+            <span>{content.part.name}</span>
+          </div>
 
-        <p className="motif">{content.theme.motif}</p>
-        <h1>{content.theme.guiding_question}</h1>
-        <p className="family">{content.theme.family}</p>
+          <div className="partProgress" aria-hidden="true">
+            <span style={{ width: `${partProgress}%` }} />
+          </div>
+
+          <p className="motif">{content.theme.motif}</p>
+          <h1>{content.theme.guiding_question}</h1>
+          <p className="family">{content.theme.family}</p>
+        </div>
       </section>
 
       <section className="contentStack">
@@ -90,6 +107,16 @@ export default function DayScreen({
 
         <ArtworkCard art={content.art} />
       </section>
+
+      <ReflectionPanel
+        day={content.day}
+        question={content.theme.guiding_question}
+        value={reflection}
+        completed={completed}
+        onChange={onReflectionChange}
+        onBegin={onBegin}
+        onReset={onResetDay}
+      />
 
       <section className="closingPrompt">
         <div className="closingRule" />

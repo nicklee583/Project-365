@@ -9,16 +9,18 @@ export default function CompletionPanel({
 
   return (
     <section className={`completionPanel ${completed ? "isComplete" : ""}`}>
+      <div className="completionSeal" aria-hidden="true">
+        {completed ? "✓" : day}
+      </div>
+
       <div className="completionCopy">
-        <p className="eyebrow">Your year</p>
+        <p className="eyebrow">Close the day</p>
         <h2>
           {completed
-            ? `Day ${day} complete.`
-            : `Complete Day ${day} when you're ready.`}
+            ? `Day ${day} is part of your year.`
+            : `When this day feels finished, mark it complete.`}
         </h2>
-        <p>
-          {completedCount} of {totalDays} days completed
-        </p>
+        <p>{completedCount} of {totalDays} days completed</p>
       </div>
 
       <div className="completionProgress" aria-hidden="true">
@@ -33,7 +35,7 @@ export default function CompletionPanel({
         <span className="completionMark" aria-hidden="true">
           {completed ? "✓" : "○"}
         </span>
-        {completed ? "Completed" : "Mark day complete"}
+        {completed ? "Completed — tap to reopen" : "Mark day complete"}
       </button>
     </section>
   );

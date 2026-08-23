@@ -5,8 +5,19 @@ import { getDay, isValidDay, TOTAL_DAYS } from "./lib/content";
 import {
   isDayComplete,
   loadCompletedDays,
+  removeCompletedDay,
   toggleCompletedDay
 } from "./lib/progress";
+import {
+  getReflection,
+  isDayStarted,
+  loadReflections,
+  loadStartedDays,
+  markDayStarted,
+  removeReflection,
+  removeStartedDay,
+  saveReflection
+} from "./lib/journey";
 
 const LAST_DAY_KEY = "365:last-day";
 
@@ -19,11 +30,8 @@ function readDayFromUrl() {
 function updateUrl(day, { replace = false } = {}) {
   const url = new URL(window.location.href);
 
-  if (day) {
-    url.searchParams.set("day", String(day));
-  } else {
-    url.searchParams.delete("day");
-  }
+  if (day) url.searchParams.set("day", String(day));
+  else url.searchParams.delete("day");
 
   const method = replace ? "replaceState" : "pushState";
   window.history[method]({ day: day || null }, "", url);
@@ -32,12 +40,19 @@ function updateUrl(day, { replace = false } = {}) {
 export default function App() {
   const [selectedDay, setSelectedDay] = useState(() => readDayFromUrl());
   const [completedDays, setCompletedDays] = useState(() => loadCompletedDays());
+  const [startedDays, setStartedDays] = useState(() => loadStartedDays());
+  const [reflections, setReflections] = useState(() => loadReflections());
 
   useEffect(() => {
     const onPopState = () => setSelectedDay(readDayFromUrl());
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, []);
+
+  useEffect(() => {
+    if (!selectedDay) return;
+    setStartedDays((current) => markDayStarted(current, selectedDay));
+  }, [selectedDay]);
 
   const content = useMemo(
     () => (selectedDay ? getDay(selectedDay) : null),
@@ -60,6 +75,23 @@ export default function App() {
 
   function toggleComplete(day) {
     setCompletedDays((current) => toggleCompletedDay(current, Number(day)));
+    setStartedDays((current) => markDayStarted(current, Number(day)));
+  }
+
+  function beginDay(day) {
+    setStartedDays((current) => markDayStarted(current, Number(day)));
+  }
+
+  function updateReflection(day, text) {
+    setReflections((current) => saveReflection(current, Number(day), text));
+    beginDay(day);
+  }
+
+  function resetDay(day) {
+    const target = Number(day);
+    setReflections((current) => removeReflection(current, target));
+    setCompletedDays((current) => removeCompletedDay(current, target));
+    setStartedDays((current) => removeStartedDay(current, target));
   }
 
   if (!content) {
@@ -69,6 +101,7 @@ export default function App() {
         totalDays={TOTAL_DAYS}
         lastDayKey={LAST_DAY_KEY}
         completedDays={completedDays}
+        startedDays={startedDays}
       />
     );
   }
@@ -80,7 +113,12 @@ export default function App() {
       onOpenDay={openDay}
       onHome={goHome}
       completed={isDayComplete(completedDays, content.day)}
+      started={isDayStarted(startedDays, content.day)}
       completedCount={completedDays.length}
+      reflection={getReflection(reflections, content.day)}
+      onReflectionChange={(text) => updateReflection(content.day, text)}
+      onBegin={() => beginDay(content.day)}
+      onResetDay={() => resetDay(content.day)}
       onToggleComplete={() => toggleComplete(content.day)}
     />
   );

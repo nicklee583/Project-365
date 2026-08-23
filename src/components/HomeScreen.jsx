@@ -1,11 +1,21 @@
 import { useEffect, useMemo, useState } from "react";
 import { getFirstIncompleteDay } from "../lib/progress";
+import { countUnfinished } from "../lib/journey";
+
+const MOVEMENTS = [
+  ["I", "Looking"],
+  ["II", "Others"],
+  ["III", "Complication"],
+  ["IV", "Time & Inheritance"],
+  ["V", "Meaning"]
+];
 
 export default function HomeScreen({
   onOpenDay,
   totalDays,
   lastDayKey,
-  completedDays
+  completedDays,
+  startedDays
 }) {
   const [continueDay, setContinueDay] = useState(1);
 
@@ -20,6 +30,7 @@ export default function HomeScreen({
 
   const completedCount = completedDays.length;
   const progress = (completedCount / totalDays) * 100;
+  const unfinishedCount = countUnfinished(startedDays, completedDays);
   const firstIncomplete = useMemo(
     () => getFirstIncompleteDay(completedDays),
     [completedDays]
@@ -28,18 +39,22 @@ export default function HomeScreen({
   return (
     <main className="homeShell">
       <section className="homeHero">
-        <div className="homeAccent" aria-hidden="true" />
+        <div className="homeTopline">
+          <p className="eyebrow">A daily practice in attention</p>
+          <span>Poem · Essay · Art · Reflection</span>
+        </div>
 
-        <p className="eyebrow">A daily practice in attention</p>
-
-        <h1 className="homeTitle">
-          365
-          <span>A year of poems, essays & art.</span>
-        </h1>
+        <div className="homeTitleGrid">
+          <h1 className="homeTitle">365</h1>
+          <div className="homeTitleSide">
+            <span className="titleRule" aria-hidden="true" />
+            <p>A year of poems, essays & art.</p>
+          </div>
+        </div>
 
         <p className="homeIntro">
-          One question. One poem. One essay. One work of art.
-          A few quiet minutes to notice the world differently.
+          One question at a time. Read slowly, look closely, leave a thought
+          behind, and let the year become a record of what you noticed.
         </p>
 
         <div className="homeActions">
@@ -65,25 +80,32 @@ export default function HomeScreen({
 
         <section className="homeProgress" aria-label="Completion progress">
           <div className="homeProgressTop">
-            <span>Your year</span>
-            <strong>{completedCount} / {totalDays}</strong>
+            <div>
+              <span>Your year</span>
+              <strong>{completedCount} / {totalDays}</strong>
+            </div>
+            <p>
+              {unfinishedCount > 0
+                ? `${unfinishedCount} day${unfinishedCount === 1 ? "" : "s"} in progress`
+                : completedCount === 0
+                  ? "Ready when you are"
+                  : "No unfinished days"}
+            </p>
           </div>
+
           <div className="homeProgressTrack">
             <span style={{ width: `${progress}%` }} />
           </div>
-          <p>
-            {completedCount === 0
-              ? "Your completed days will be remembered on this device."
-              : completedCount === totalDays
-                ? "You completed the entire year."
-                : `${Math.round(progress)}% complete`}
-          </p>
         </section>
 
-        <div className="homeMeta">
-          <span>365 days</span>
-          <span>5 movements</span>
-          <span>1 unfolding arc</span>
+        <div className="movementStrip" aria-label="Five movements">
+          {MOVEMENTS.map(([roman, name], index) => (
+            <div className="movement" key={roman}>
+              <span>{roman}</span>
+              <strong>{name}</strong>
+              <i aria-hidden="true" className={index % 2 === 0 ? "maroon" : "green"} />
+            </div>
+          ))}
         </div>
       </section>
     </main>
