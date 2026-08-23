@@ -33,6 +33,13 @@ for (let i = 0; i < days.length; i += 1) {
   if (required.some((value) => !String(value || "").trim())) {
     failures.push(`Day ${entry.day} has a missing core field.`);
   }
+
+  if (
+    entry?.art?.image_url &&
+    !/^https?:\/\//i.test(String(entry.art.image_url))
+  ) {
+    failures.push(`Day ${entry.day} has an invalid art image_url.`);
+  }
 }
 
 if (failures.length) {

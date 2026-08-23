@@ -2,6 +2,11 @@ import { useEffect, useMemo, useState } from "react";
 import HomeScreen from "./components/HomeScreen";
 import DayScreen from "./components/DayScreen";
 import { getDay, isValidDay, TOTAL_DAYS } from "./lib/content";
+import {
+  isDayComplete,
+  loadCompletedDays,
+  toggleCompletedDay
+} from "./lib/progress";
 
 const LAST_DAY_KEY = "365:last-day";
 
@@ -26,6 +31,7 @@ function updateUrl(day, { replace = false } = {}) {
 
 export default function App() {
   const [selectedDay, setSelectedDay] = useState(() => readDayFromUrl());
+  const [completedDays, setCompletedDays] = useState(() => loadCompletedDays());
 
   useEffect(() => {
     const onPopState = () => setSelectedDay(readDayFromUrl());
@@ -52,12 +58,17 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
+  function toggleComplete(day) {
+    setCompletedDays((current) => toggleCompletedDay(current, Number(day)));
+  }
+
   if (!content) {
     return (
       <HomeScreen
         onOpenDay={openDay}
         totalDays={TOTAL_DAYS}
         lastDayKey={LAST_DAY_KEY}
+        completedDays={completedDays}
       />
     );
   }
@@ -68,6 +79,9 @@ export default function App() {
       totalDays={TOTAL_DAYS}
       onOpenDay={openDay}
       onHome={goHome}
+      completed={isDayComplete(completedDays, content.day)}
+      completedCount={completedDays.length}
+      onToggleComplete={() => toggleComplete(content.day)}
     />
   );
 }

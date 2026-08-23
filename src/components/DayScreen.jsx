@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import ArtworkCard from "./ArtworkCard";
+import CompletionPanel from "./CompletionPanel";
 import DayNavigator from "./DayNavigator";
 import MediaCard from "./MediaCard";
 
@@ -6,7 +8,10 @@ export default function DayScreen({
   content,
   totalDays,
   onOpenDay,
-  onHome
+  onHome,
+  completed,
+  completedCount,
+  onToggleComplete
 }) {
   useEffect(() => {
     document.title = `Day ${content.day} — ${content.theme.motif} · 365`;
@@ -31,8 +36,11 @@ export default function DayScreen({
           365
         </button>
 
-        <div className="headerDay">
-          Day {content.day} / {totalDays}
+        <div className="headerStatus">
+          {completed ? <span className="completePill">Completed</span> : null}
+          <div className="headerDay">
+            Day {content.day} / {totalDays}
+          </div>
         </div>
 
         <div className="yearProgress" aria-hidden="true">
@@ -58,6 +66,7 @@ export default function DayScreen({
       <section className="contentStack">
         <MediaCard
           index={1}
+          variant="poem"
           kicker={`Poem · ${content.poem.read_min} min`}
           title={content.poem.title}
           creator={content.poem.poet}
@@ -69,6 +78,7 @@ export default function DayScreen({
 
         <MediaCard
           index={2}
+          variant="essay"
           kicker={`Essay · ${content.essay.read_min} min`}
           title={content.essay.title}
           creator={content.essay.author}
@@ -78,16 +88,7 @@ export default function DayScreen({
           linkLabel="Read the essay"
         />
 
-        <MediaCard
-          index={3}
-          kicker="Artwork"
-          title={content.art.title}
-          creator={content.art.artist_or_culture}
-          body="Spend a minute with the image before reading anything about it. What do you notice first? What changes after you stay?"
-          href={content.art.source.url}
-          source={content.art.source.name}
-          linkLabel="View the artwork"
-        />
+        <ArtworkCard art={content.art} />
       </section>
 
       <section className="closingPrompt">
@@ -95,6 +96,14 @@ export default function DayScreen({
         <p>Carry the question with you.</p>
         <blockquote>{content.theme.guiding_question}</blockquote>
       </section>
+
+      <CompletionPanel
+        day={content.day}
+        completed={completed}
+        completedCount={completedCount}
+        totalDays={totalDays}
+        onToggle={onToggleComplete}
+      />
 
       <DayNavigator
         day={content.day}

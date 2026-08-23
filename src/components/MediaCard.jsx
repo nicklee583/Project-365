@@ -2,6 +2,7 @@ import SourceLink from "./SourceLink";
 
 export default function MediaCard({
   index,
+  variant = "",
   kicker,
   title,
   creator,
@@ -12,7 +13,7 @@ export default function MediaCard({
   linkLabel
 }) {
   return (
-    <article className="mediaCard">
+    <article className={`mediaCard ${variant ? `${variant}Card` : ""}`}>
       <div className="cardIndex">{String(index).padStart(2, "0")}</div>
       <div className="cardKicker">{kicker}</div>
 

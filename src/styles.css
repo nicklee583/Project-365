@@ -1,16 +1,23 @@
 :root {
-  --paper: #f4f0e7;
-  --paper-deep: #e9e2d5;
-  --ink: #171714;
-  --muted: #6e6a61;
-  --line: rgba(23, 23, 20, 0.16);
-  --card: rgba(255, 253, 248, 0.68);
-  --max: 860px;
+  --paper: #f2ecdf;
+  --paper-light: #fbf7ef;
+  --ink: #181714;
+  --muted: #6e685f;
+  --line: rgba(24, 23, 20, 0.16);
+
+  --maroon: #6d213c;
+  --maroon-dark: #4a1528;
+  --maroon-soft: rgba(109, 33, 60, 0.10);
+
+  --phthalo: #0f4b3a;
+  --phthalo-dark: #082f25;
+  --phthalo-soft: rgba(15, 75, 58, 0.10);
+
+  --card: rgba(255, 252, 245, 0.74);
+  --max: 880px;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html {
   min-height: 100%;
@@ -24,21 +31,16 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 15% 0%, rgba(255,255,255,.8), transparent 32rem),
-    linear-gradient(180deg, var(--paper), #eee8dc);
+    radial-gradient(circle at 8% 4%, rgba(109, 33, 60, .08), transparent 28rem),
+    radial-gradient(circle at 92% 18%, rgba(15, 75, 58, .09), transparent 28rem),
+    linear-gradient(180deg, var(--paper-light), var(--paper));
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-button,
-input {
-  font: inherit;
-}
-
-button {
-  color: inherit;
-}
+button, input { font: inherit; }
+button { color: inherit; }
 
 .eyebrow,
 .cardKicker,
@@ -53,6 +55,8 @@ button {
   font-weight: 700;
 }
 
+.eyebrow { color: var(--maroon); }
+
 .homeShell {
   min-height: 100svh;
   display: grid;
@@ -62,10 +66,19 @@ button {
 
 .homeHero {
   width: min(760px, 100%);
+  position: relative;
+}
+
+.homeAccent {
+  width: 82px;
+  height: 8px;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, var(--maroon) 0 50%, var(--phthalo) 50%);
 }
 
 .homeTitle {
   margin: 22px 0;
+  color: var(--maroon-dark);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(90px, 24vw, 180px);
   line-height: .72;
@@ -75,8 +88,9 @@ button {
 
 .homeTitle span {
   display: block;
-  max-width: 560px;
+  max-width: 590px;
   margin-top: 38px;
+  color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(28px, 6vw, 56px);
   line-height: .96;
@@ -93,26 +107,85 @@ button {
   line-height: 1.6;
 }
 
-.primaryButton {
+.homeActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton {
   min-height: 52px;
   display: inline-flex;
   align-items: center;
-  gap: 40px;
+  justify-content: center;
   padding: 0 20px;
-  border: 0;
   border-radius: 999px;
-  background: var(--ink);
-  color: var(--paper);
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.primaryButton {
+  gap: 40px;
+  border: 0;
+  background: var(--maroon);
+  color: #fffaf2;
+}
+
+.primaryButton:hover { background: var(--maroon-dark); }
+
+.secondaryButton {
+  border: 1px solid var(--phthalo);
+  background: transparent;
+  color: var(--phthalo);
+}
+
+.homeProgress {
+  margin-top: 42px;
+  padding: 22px 0 4px;
+  border-top: 1px solid var(--line);
+}
+
+.homeProgressTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.homeProgressTop strong {
+  color: var(--phthalo);
+  font-size: 13px;
+}
+
+.homeProgressTrack {
+  height: 5px;
+  margin-top: 13px;
+  overflow: hidden;
+  background: rgba(15, 75, 58, .12);
+}
+
+.homeProgressTrack span {
+  display: block;
+  height: 100%;
+  background: var(--phthalo);
+}
+
+.homeProgress p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .homeMeta {
   display: flex;
   gap: 26px;
   flex-wrap: wrap;
-  margin-top: 42px;
+  margin-top: 36px;
   color: var(--muted);
 }
 
@@ -135,27 +208,43 @@ button {
   background: transparent;
   padding: 0;
   width: fit-content;
+  color: var(--maroon-dark);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 24px;
   cursor: pointer;
 }
 
-.headerDay {
-  color: var(--muted);
+.headerStatus {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
+
+.completePill {
+  padding: 5px 8px;
+  border: 1px solid rgba(15, 75, 58, .3);
+  border-radius: 999px;
+  color: var(--phthalo);
+  background: var(--phthalo-soft);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.headerDay { color: var(--muted); }
 
 .yearProgress {
   position: absolute;
   inset: auto 0 0;
-  height: 1px;
+  height: 2px;
   background: var(--line);
 }
 
-.yearProgress span,
-.partProgress span {
+.yearProgress span {
   display: block;
   height: 100%;
-  background: var(--ink);
+  background: linear-gradient(90deg, var(--maroon), var(--phthalo));
 }
 
 .dayIntro {
@@ -168,9 +257,7 @@ button {
   color: var(--muted);
 }
 
-.partLabel span:first-child {
-  color: var(--ink);
-}
+.partLabel span:first-child { color: var(--maroon); }
 
 .partProgress {
   width: 120px;
@@ -179,14 +266,20 @@ button {
   background: var(--line);
 }
 
+.partProgress span {
+  display: block;
+  height: 100%;
+  background: var(--phthalo);
+}
+
 .motif {
   margin: 0 0 18px;
-  color: var(--muted);
+  color: var(--maroon);
   font-size: 15px;
 }
 
 .dayIntro h1 {
-  max-width: 790px;
+  max-width: 810px;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(45px, 8vw, 82px);
@@ -197,21 +290,37 @@ button {
 
 .family {
   margin-top: 28px;
-  color: var(--muted);
+  color: var(--phthalo);
 }
 
 .contentStack {
   display: grid;
-  gap: 18px;
+  gap: 20px;
 }
 
 .mediaCard {
   position: relative;
+  overflow: hidden;
   padding: clamp(30px, 6vw, 58px);
   border: 1px solid var(--line);
-  border-radius: 3px;
+  border-radius: 5px;
   background: var(--card);
+  box-shadow: 0 18px 55px rgba(54, 45, 36, .045);
   backdrop-filter: blur(10px);
+}
+
+.mediaCard::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--line);
+}
+
+.poemCard::before { background: var(--maroon); }
+.essayCard::before { background: var(--phthalo); }
+.artworkCard::before {
+  background: linear-gradient(180deg, var(--maroon), var(--phthalo));
 }
 
 .cardIndex {
@@ -229,7 +338,7 @@ button {
 }
 
 .mediaCard h2 {
-  max-width: 680px;
+  max-width: 690px;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(35px, 6vw, 56px);
@@ -237,6 +346,9 @@ button {
   letter-spacing: -.035em;
   font-weight: 400;
 }
+
+.poemCard h2 { color: var(--maroon-dark); }
+.essayCard h2 { color: var(--phthalo-dark); }
 
 .creator {
   margin: 14px 0 0;
@@ -259,6 +371,56 @@ button {
   line-height: 1.65;
 }
 
+.artworkFigure {
+  margin: 0 0 34px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #ddd5c7;
+}
+
+.artworkImage {
+  width: 100%;
+  max-height: 680px;
+  display: block;
+  object-fit: contain;
+  background: #e9e1d5;
+}
+
+.artworkPreviewPlaceholder {
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 22px;
+  align-items: end;
+  margin: 0 0 34px;
+  padding: 28px;
+  border: 1px solid rgba(15, 75, 58, .18);
+  background:
+    linear-gradient(135deg, var(--maroon-soft), transparent 48%),
+    linear-gradient(315deg, var(--phthalo-soft), transparent 52%);
+}
+
+.artworkPreviewPlaceholder span {
+  color: var(--maroon);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 64px;
+  letter-spacing: -.05em;
+}
+
+.artworkPreviewPlaceholder div {
+  height: 2px;
+  background: var(--phthalo);
+}
+
+.imageStatus {
+  max-width: 610px;
+  padding-left: 12px;
+  border-left: 2px solid var(--phthalo);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
 .sourceLink {
   width: 100%;
   display: grid;
@@ -274,6 +436,8 @@ button {
   font-weight: 700;
 }
 
+.sourceLink:hover { color: var(--maroon); }
+
 .sourceLink small {
   color: var(--muted);
   font-weight: 400;
@@ -283,14 +447,14 @@ button {
 }
 
 .closingPrompt {
-  padding: 110px 0 100px;
+  padding: 110px 0 82px;
 }
 
 .closingRule {
-  width: 40px;
-  height: 1px;
+  width: 42px;
+  height: 3px;
   margin-bottom: 28px;
-  background: var(--ink);
+  background: linear-gradient(90deg, var(--maroon) 50%, var(--phthalo) 50%);
 }
 
 .closingPrompt p {
@@ -306,6 +470,67 @@ button {
   line-height: 1.12;
 }
 
+.completionPanel {
+  margin-bottom: 54px;
+  padding: clamp(26px, 5vw, 42px);
+  border: 1px solid rgba(109, 33, 60, .22);
+  background: var(--maroon-soft);
+}
+
+.completionPanel.isComplete {
+  border-color: rgba(15, 75, 58, .28);
+  background: var(--phthalo-soft);
+}
+
+.completionCopy h2 {
+  margin: 7px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(26px, 5vw, 38px);
+  font-weight: 400;
+}
+
+.completionCopy > p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.completionProgress {
+  height: 4px;
+  margin: 24px 0;
+  overflow: hidden;
+  background: rgba(24, 23, 20, .10);
+}
+
+.completionProgress span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--maroon), var(--phthalo));
+}
+
+.completionButton {
+  min-height: 48px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 18px;
+  border: 1px solid var(--maroon);
+  border-radius: 999px;
+  background: var(--maroon);
+  color: #fffaf2;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.completionButton.completed {
+  border-color: var(--phthalo);
+  background: var(--phthalo);
+}
+
+.completionMark {
+  font-size: 18px;
+}
+
 .dayNavigator {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -316,9 +541,7 @@ button {
   border-bottom: 1px solid var(--line);
 }
 
-.navRight {
-  text-align: right;
-}
+.navRight { text-align: right; }
 
 .navButton {
   display: inline-flex;
@@ -330,6 +553,8 @@ button {
   font-weight: 700;
   cursor: pointer;
 }
+
+.navButton:hover { color: var(--maroon); }
 
 .jumpForm {
   display: flex;
@@ -351,7 +576,7 @@ button {
   border: 0;
   background: transparent;
   padding: 8px 13px 8px 5px;
-  color: var(--ink);
+  color: var(--phthalo);
   font-weight: 700;
   cursor: pointer;
 }
@@ -376,36 +601,21 @@ button {
 }
 
 @media (max-width: 620px) {
-  .dayShell {
-    width: min(100% - 24px, var(--max));
-  }
+  .dayShell { width: min(100% - 24px, var(--max)); }
+  .dayHeader { min-height: 70px; }
+  .headerStatus { gap: 7px; }
+  .completePill { display: none; }
+  .dayIntro { padding-top: 64px; }
+  .mediaCard { padding: 30px 22px; }
 
-  .dayHeader {
-    min-height: 70px;
-  }
-
-  .dayIntro {
-    padding-top: 64px;
-  }
-
-  .mediaCard {
-    padding: 30px 22px;
-  }
-
-  .sourceLink {
-    grid-template-columns: 1fr auto;
-  }
-
+  .sourceLink { grid-template-columns: 1fr auto; }
   .sourceLink small {
     grid-column: 1 / -1;
     grid-row: 2;
     white-space: normal;
   }
 
-  .dayNavigator {
-    grid-template-columns: 1fr 1fr;
-  }
-
+  .dayNavigator { grid-template-columns: 1fr 1fr; }
   .jumpForm {
     grid-column: 1 / -1;
     grid-row: 1;
@@ -413,13 +623,12 @@ button {
     justify-content: center;
   }
 
-  .homeMeta {
-    gap: 16px;
-  }
+  .homeMeta { gap: 16px; }
+  .homeActions { align-items: stretch; }
+  .primaryButton, .secondaryButton { width: 100%; }
+  .artworkPreviewPlaceholder { min-height: 190px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+  html { scroll-behavior: auto; }
 }

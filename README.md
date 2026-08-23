@@ -1,105 +1,50 @@
-# 365 — A Daily Reflection
+# 365 — A Daily Reflection · App V2
 
-This is the GitHub-repository edition of the 365-day poem / essay / art app.
+This version keeps the final 365-day poem / essay / art production dataset and adds the first user-state and visual-design layer.
 
-It is a normal React + Vite source project. Upload these files to the root of a GitHub repository and connect that repository to the hosting platform you want to use.
+## New in V2
 
-## Production content
+- completed-day tracking stored in browser `localStorage`;
+- completed count and progress bar on the home screen;
+- "Next unfinished day" shortcut;
+- mark / unmark a day as complete;
+- completed status on the Day screen;
+- maroon + phthalo-green visual system over warm paper tones;
+- artwork card now supports direct in-app images through `art.image_url`;
+- graceful artwork placeholder until a vetted image URL is supplied.
 
-The app is powered by:
+## Important: completion data
 
-`src/data/daily_content.json`
+Completion is currently **local to the browser/device**. It does not require login and is not synced across devices yet.
 
-That file contains the final production-QA dataset for all 365 days:
+The storage key is:
 
-- 365 poem selections
-- 365 day-specific essay selections
-- 365 artworks
-- all five 73-day narrative parts
-- final source URLs and QA metadata
+`365:completed-days`
 
-The UI reads that dataset through `src/lib/content.js`.
+A later Supabase/account version can move the same completed-day model to the cloud.
 
-## Repository structure
+## Artwork image support
 
-```text
-.
-├── .github/
-│   └── workflows/
-│       └── validate.yml
-├── public/
-│   └── favicon.svg
-├── scripts/
-│   └── check-data.mjs
-├── src/
-│   ├── components/
-│   │   ├── DayNavigator.jsx
-│   │   ├── DayScreen.jsx
-│   │   ├── HomeScreen.jsx
-│   │   ├── MediaCard.jsx
-│   │   └── SourceLink.jsx
-│   ├── data/
-│   │   └── daily_content.json
-│   ├── lib/
-│   │   └── content.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── styles.css
-├── .gitignore
-├── index.html
-├── package.json
-└── vite.config.js
+Each day now supports:
+
+```json
+"art": {
+  "title": "...",
+  "artist_or_culture": "...",
+  "source": {
+    "name": "...",
+    "url": "..."
+  },
+  "image_url": null
+}
 ```
 
-## Run locally
+When `image_url` contains a vetted HTTP(S) image URL, the artwork appears directly in the app. When it is `null`, the app keeps the current source link and shows a designed placeholder.
 
-```bash
-npm install
-npm run dev
-```
+This is intentional: do not use museum page URLs as image URLs, and do not hotlink arbitrary images without checking source reliability and usage rights.
 
-## Production build
+## GitHub Pages
 
-```bash
-npm run check:data
-npm run build
-```
+The existing GitHub Pages deployment workflow is retained.
 
-Vite outputs the deployable build to:
-
-`dist/`
-
-## GitHub workflow
-
-Every push or pull request runs:
-
-1. `npm install`
-2. the 365-day production-data validation
-3. a full Vite build
-
-So GitHub itself will flag a broken dataset or broken app build.
-
-## Navigation
-
-The app uses shareable query-string URLs:
-
-```text
-/?day=1
-/?day=42
-/?day=365
-```
-
-This keeps the project easy to deploy on static or server-backed hosts without adding a routing dependency.
-
-## Current features
-
-- complete 365-day dataset
-- start / continue experience
-- remembers last opened day
-- poem / essay / art cards
-- verified source links
-- five-part progress
-- year progress
-- previous and next day
-- jump to any day
-- responsive mobile-first layout
+Upload/replace the project files in the repo and commit to `main`; the Pages workflow will rebuild and redeploy automatically.
