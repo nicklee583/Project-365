@@ -1369,3 +1369,112 @@ body::before {
     min-height: 44px;
   }
 }
+/* =========================================================
+   V4.2 — EXTERNAL LINK BUTTONS + ARTWORK CLEANUP
+   ========================================================= */
+
+/* The old artwork monogram/lockup is no longer used. */
+.artworkTitleLockup {
+  display: block;
+}
+
+.artworkMonogram {
+  display: none !important;
+}
+
+.artPrompt {
+  margin-left: 0;
+}
+
+/* Clear external-source action treatment. */
+.sourceAction {
+  margin-top: 38px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.sourceButton {
+  min-height: 50px;
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  padding: 0 18px 0 20px;
+  border: 1px solid rgba(117, 180, 159, .40);
+  border-radius: 999px;
+  background: var(--phthalo);
+  color: #f7fff9;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .015em;
+  box-shadow: 0 10px 30px rgba(6, 51, 38, .16);
+  transition:
+    transform .16s ease,
+    background .16s ease,
+    border-color .16s ease,
+    color .16s ease;
+}
+
+.sourceButton:hover {
+  transform: translateY(-1px);
+  background: #357b65;
+  border-color: rgba(159, 208, 191, .65);
+  color: white;
+}
+
+.sourceButton:focus-visible {
+  outline: 3px solid rgba(159, 208, 191, .48);
+  outline-offset: 3px;
+}
+
+.sourceButtonIcon {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.sourceAttribution {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+/* Keep each medium subtly distinct while preserving one obvious CTA pattern. */
+.poemCard .sourceButton {
+  border-color: rgba(212, 135, 159, .34);
+  background: var(--maroon);
+}
+
+.poemCard .sourceButton:hover {
+  background: #a64c69;
+  border-color: rgba(224, 161, 181, .65);
+}
+
+.essayCard .sourceButton {
+  background: var(--phthalo);
+}
+
+.artworkCard .sourceButton {
+  background:
+    linear-gradient(135deg, var(--phthalo), #245e4d);
+  border-color: rgba(117, 180, 159, .44);
+}
+
+/* Remove the previous text-row link presentation if old CSS remains earlier. */
+.sourceLink {
+  display: none !important;
+}
+
+@media (max-width: 620px) {
+  .sourceButton {
+    width: 100%;
+    min-height: 54px;
+  }
+
+  .sourceAttribution {
+    padding-left: 2px;
+  }
+}

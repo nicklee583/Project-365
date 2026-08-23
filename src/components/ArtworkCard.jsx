@@ -19,13 +19,8 @@ export default function ArtworkCard({ art }) {
         </figure>
       ) : null}
 
-      <div className="artworkTitleLockup">
-        <span className="artworkMonogram" aria-hidden="true">A</span>
-        <div>
-          <h2>{art.title}</h2>
-          <p className="creator">{art.artist_or_culture}</p>
-        </div>
-      </div>
+      <h2>{art.title}</h2>
+      <p className="creator">{art.artist_or_culture}</p>
 
       <p className="cardBody artPrompt">
         Spend a minute with the work before reading anything about it. Notice
