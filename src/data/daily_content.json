@@ -676,9 +676,9 @@
         "confidence": "A",
         "relationship_to_poem": "Hopkins responds to variety and pattern with praise; Emerson analyzes why the eye and mind experience the world as beautiful.",
         "source": {
-          "name": "University of Michigan Library Digital Collections",
-          "url": "https://quod.lib.umich.edu/e/emerson/4957107.0001.001/1:9.4?rgn=div2&view=fulltext",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/Nature_%281836%29/Chapter_3",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -2677,9 +2677,9 @@
         "confidence": "A",
         "relationship_to_poem": "Hughes treats dreams as necessary to life; Stevenson asks what the dreaming mind actually does while waking identity sleeps.",
         "source": {
-          "name": "Project Gutenberg",
-          "url": "https://readingroo.ms/6/1/614/614-h/614-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Lit2Go — University of South Florida",
+          "url": "https://etc.usf.edu/lit2go/110/selected-essays-of-robert-louis-stevenson/5111/a-chapter-on-dreams/",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -4748,8 +4748,8 @@
         "relationship_to_poem": "Espaillat negotiates inheritance through bilingual form; Eliot provides a formal theory of tradition as active relationship rather than preservation.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Tradition_and_the_Individual_Talent",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/The_Sacred_Wood/Tradition_and_the_Individual_Talent",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "REUSED WORK — 2 uses"
@@ -5989,9 +5989,9 @@
         "confidence": "B",
         "relationship_to_poem": "Lorde gives adolescence its simultaneous crises in the present tense; Pater looks backward at how such a self slowly comes into being.",
         "source": {
-          "name": "Project Gutenberg mirror",
-          "url": "https://readingroo.ms/4/0/5/4059/4059-h/4059-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24711495M/Miscellaneous_studies",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 3 uses"
@@ -6955,9 +6955,9 @@
         "confidence": "A",
         "relationship_to_poem": "Plath turns prescribed femininity into a grotesque job interview; Woolf explains the social architecture that makes such prescriptions powerful.",
         "source": {
-          "name": "Project Gutenberg Australia",
-          "url": "https://gutenberg.net.au/ebooks02/0200791.txt",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/A_Room_of_One%27s_Own_%28Hogarth_1929%29",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Copyright varies by jurisdiction; link only where required",
         "work_status": "UNIQUE"
@@ -7163,8 +7163,8 @@
         "relationship_to_poem": "Hughes asks whether America belongs to everyone it claims; Thoreau asks what individuals owe the republic when its actions violate conscience.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Civil_Disobedience_(Thoreau)",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/Miscellanies_%28Thoreau%29/Civil_Disobedience",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
@@ -8957,8 +8957,8 @@
         "relationship_to_poem": "McKay turns protest into collective dignity; Thoreau supplies a direct theory of why refusal can become a civic obligation.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Civil_Disobedience_(Thoreau)",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/Miscellanies_%28Thoreau%29/Civil_Disobedience",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -9026,8 +9026,8 @@
         "relationship_to_poem": "Ríos makes language and food carry grandmotherly intimacy; Zitkala-Ša shows how a first language can become inseparable from cultural survival.",
         "source": {
           "name": "University of Pennsylvania — A Celebration of Women Writers",
-          "url": "https://digital.library.upenn.edu/women/zitkala-sa/stories/stories.html#teacher",
-          "url_qa": "PASS — VERIFIED SECTION NON-GUTENBERG SOURCE"
+          "url": "https://digital.library.upenn.edu/women/zitkala-sa/stories/teacher.html",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -9646,9 +9646,9 @@
         "confidence": "B",
         "relationship_to_poem": "Tanning makes distance the measure of desire; Woolf asks why real closeness may require distance rather than eliminate it.",
         "source": {
-          "name": "Project Gutenberg Australia",
-          "url": "https://gutenberg.net.au/ebooks02/0200791.txt",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/A_Room_of_One%27s_Own_%28Hogarth_1929%29",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Copyright varies by jurisdiction; link only where required",
         "work_status": "UNIQUE"
@@ -9715,9 +9715,9 @@
         "confidence": "A",
         "relationship_to_poem": "Kipling praises steadfastness; Royce complicates that virtue by asking what kinds of causes deserve loyalty at all.",
         "source": {
-          "name": "Josiah Royce Edition",
-          "url": "https://josiah-royce-edition.org/wp-content/uploads/2016/08/Philosophy-of-Loyalty.pdf",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/works/OL2745322W/The_philosophy_of_loyalty",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "UNIQUE"
@@ -12890,8 +12890,8 @@
         "relationship_to_poem": "Dickinson imagines calm before death; Thoreau asks what allows a person to act when the consequence of acting may be punishment.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Civil_Disobedience_(Thoreau)",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/Miscellanies_%28Thoreau%29/Civil_Disobedience",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -13304,8 +13304,8 @@
         "relationship_to_poem": "Lorde says silence will not protect us; Thoreau gives refusal a concrete civic method.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Civil_Disobedience_(Thoreau)",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/Miscellanies_%28Thoreau%29/Civil_Disobedience",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -14959,9 +14959,9 @@
         "confidence": "A",
         "relationship_to_poem": "Hopkins's poem recognizes loss through seasonal change; London observes what life looks like in the first hours after a world has materially changed.",
         "source": {
-          "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/The_Story_of_an_Eyewitness",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "California State Parks",
+          "url": "https://parks.ca.gov/?page_id=24206",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -15167,8 +15167,8 @@
         "relationship_to_poem": "Herrick urges immediate enjoyment because time passes; Seneca asks what it would mean to stop wasting the time already available.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/On_the_Shortness_of_Life",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain translation/source",
         "work_status": "REUSED WORK — 3 uses"
@@ -15580,9 +15580,9 @@
         "confidence": "A",
         "relationship_to_poem": "Harner imagines the dead dispersed through nature; Woolf stays at the threshold where a living presence becomes an absence.",
         "source": {
-          "name": "Project Gutenberg Australia",
-          "url": "https://gutenberg.net.au/ebooks12/1203811h.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "VIVA Open Publishing / Pressbooks",
+          "url": "https://viva.pressbooks.pub/womenlit/chapter/the-death-of-a-moth/",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Copyright varies by jurisdiction; link only where required",
         "work_status": "REUSED WORK — 3 uses"
@@ -15649,9 +15649,9 @@
         "confidence": "A",
         "relationship_to_poem": "Thomas's Fern Hill turns a childhood landscape mythic with distance; Pater explains how houses and places become structures inside memory.",
         "source": {
-          "name": "Project Gutenberg mirror",
-          "url": "https://readingroo.ms/4/0/5/4059/4059-h/4059-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24711495M/Miscellaneous_studies",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 3 uses"
@@ -15788,8 +15788,8 @@
         "relationship_to_poem": "Brown's poem interrogates inherited violence inside literary tradition; Eliot supplies a useful theory to challenge: tradition survives by being changed.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Tradition_and_the_Individual_Talent",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/The_Sacred_Wood/Tradition_and_the_Individual_Talent",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain in the U.S.",
         "work_status": "REUSED WORK — 2 uses"
@@ -16339,9 +16339,9 @@
         "confidence": "A",
         "relationship_to_poem": "Cording senses generations inhabiting old houses; Pater shows how architecture becomes psychological memory.",
         "source": {
-          "name": "Project Gutenberg mirror",
-          "url": "https://readingroo.ms/4/0/5/4059/4059-h/4059-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24711495M/Miscellaneous_studies",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "UNIQUE"
@@ -17237,8 +17237,8 @@
         "relationship_to_poem": "Thomas fights death as the extinguishing of consciousness; Seneca asks whether age should alter the terms on which mortality is judged.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/On_the_Shortness_of_Life",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain translation/source",
         "work_status": "UNIQUE"
@@ -18893,8 +18893,8 @@
         "relationship_to_poem": "Donne rhetorically humiliates death; Seneca reaches a similar freedom by treating mortality as a condition to understand rather than defeat.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/On_the_Shortness_of_Life",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain translation/source",
         "work_status": "UNIQUE"
@@ -19237,9 +19237,9 @@
         "confidence": "A",
         "relationship_to_poem": "Brooks restores interiority to women reduced by racist public narrative; Woolf provides a framework for understanding how whole lives disappear from archives.",
         "source": {
-          "name": "Project Gutenberg Australia",
-          "url": "https://gutenberg.net.au/ebooks02/0200791.txt",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org/wiki/A_Room_of_One%27s_Own_%28Hogarth_1929%29",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Copyright varies by jurisdiction; link only where required",
         "work_status": "UNIQUE"
@@ -19444,9 +19444,9 @@
         "confidence": "A",
         "relationship_to_poem": "Motion notices the poignancy of ordinary acts becoming final; Woolf's intense attention to a small death shows how 'the last time' is created by irreversibility.",
         "source": {
-          "name": "Project Gutenberg Australia",
-          "url": "https://gutenberg.net.au/ebooks12/1203811h.html",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "VIVA Open Publishing / Pressbooks",
+          "url": "https://viva.pressbooks.pub/womenlit/chapter/the-death-of-a-moth/",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Copyright varies by jurisdiction; link only where required",
         "work_status": "REUSED WORK — 3 uses"
@@ -19927,9 +19927,9 @@
         "confidence": "A",
         "relationship_to_poem": "Cornford sees childhood from the estranging distance of adulthood; Pater demonstrates that reconstruction in meticulous prose.",
         "source": {
-          "name": "Project Gutenberg mirror",
-          "url": "https://readingroo.ms/4/0/5/4059/4059-h/4059-h.htm",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Open Library",
+          "url": "https://openlibrary.org/books/OL24711495M/Miscellaneous_studies",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 3 uses"
@@ -20066,8 +20066,8 @@
         "relationship_to_poem": "Tennyson imagines death as a calm crossing; Seneca asks what habits of life could make such composure possible.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/On_the_Shortness_of_Life",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain translation/source",
         "work_status": "UNIQUE"
@@ -20203,9 +20203,9 @@
         "confidence": "A",
         "relationship_to_poem": "Padgett's comic instructions make meaning practical and ordinary; James provides a serious philosophical counterpart rooted in how lives are actually lived.",
         "source": {
-          "name": "Council for Secular Humanism",
-          "url": "https://secularhumanism.org/wp-content/uploads/sites/26/2018/09/FI-D08-J09.pdf",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "name": "Lander University",
+          "url": "https://philosophy.lander.edu/intro/introbook2.1/c9204.html",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain text / modern scan",
         "work_status": "UNIQUE"
@@ -22964,8 +22964,8 @@
         "relationship_to_poem": "Landau insists that beginning must happen inside limited time; Seneca argues that scarcity is often intensified by how we surrender the time we have.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/On_the_Shortness_of_Life",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain translation/source",
         "work_status": "REUSED WORK — 3 uses"
@@ -24137,8 +24137,8 @@
         "relationship_to_poem": "Nye's shoulders make responsibility literally carried between people; Thoreau asks what we owe when harm occurs through systems rather than private intention.",
         "source": {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Civil_Disobedience",
-          "url_qa": "PASS — DIRECT ONE-CLICK"
+          "url": "https://en.wikisource.org/wiki/Miscellanies_%28Thoreau%29/Civil_Disobedience",
+          "url_qa": "PASS — FINAL LIVE-LINK QA VERIFIED"
         },
         "rights": "Public domain",
         "work_status": "REUSED WORK — 2 uses"
