@@ -1118,3 +1118,254 @@ body::before {
   .homeCalendarLink { grid-template-columns: 1fr auto; }
   .homeCalendarLink > span:last-child { display: none; }
 }
+/* =========================================================
+   V4.1 — CALENDAR NAV FIX + PHHTHALO REBALANCE
+   ========================================================= */
+
+/* Decorative layers must never intercept navigation clicks. */
+.homeHero::after {
+  pointer-events: none;
+  z-index: 0;
+}
+
+.homeHero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.homeNavRow,
+.calendarBrandRow,
+.dayHeaderCenter,
+.appTabs {
+  position: relative;
+  z-index: 4;
+}
+
+/* Make the navigation feel more intentionally green. */
+.appTabs {
+  border-color: rgba(117, 180, 159, .28);
+  background: rgba(6, 51, 38, .24);
+  box-shadow: inset 0 0 0 1px rgba(63, 139, 114, .05);
+}
+
+.appTabs button {
+  color: #b7c9c1;
+}
+
+.appTabs button:hover {
+  background: rgba(63, 139, 114, .14);
+  color: #d8eee6;
+}
+
+.appTabs button:first-child.active {
+  background: var(--mahogany);
+  color: var(--cream);
+}
+
+.appTabs button:nth-child(2).active {
+  background: var(--phthalo);
+  color: #f5fff9;
+}
+
+/* Phthalo becomes a stronger primary interaction color. */
+.primaryButton {
+  background: linear-gradient(135deg, #0b4f3c, #286f5a);
+  border: 1px solid rgba(117, 180, 159, .28);
+  box-shadow: 0 12px 34px rgba(6, 51, 38, .20);
+}
+
+.primaryButton:hover {
+  background: linear-gradient(135deg, #0d5b46, #347e68);
+}
+
+.secondaryButton {
+  border-color: rgba(117, 180, 159, .55);
+  background: rgba(11, 79, 60, .10);
+}
+
+.homeProgress {
+  border-top-color: rgba(117, 180, 159, .20);
+}
+
+.homeProgressTrack {
+  background: rgba(63, 139, 114, .13);
+}
+
+.homeProgressTrack span {
+  background: linear-gradient(90deg, var(--phthalo), #66a991 68%, var(--maroon));
+}
+
+.homeCalendarLink {
+  border-top-color: rgba(117, 180, 159, .20);
+}
+
+.homeCalendarLink:hover {
+  color: #9fd0bf;
+}
+
+.homeCalendarLink strong {
+  color: #8fc9b6;
+}
+
+.titleRule {
+  background: linear-gradient(
+    90deg,
+    var(--phthalo) 0 58%,
+    #5e9e88 58% 76%,
+    var(--maroon) 76%
+  );
+}
+
+.family,
+.jumpForm button {
+  color: #8fc9b6;
+}
+
+.partProgress span {
+  background: linear-gradient(90deg, var(--phthalo), #6bb09a);
+}
+
+.reflectionPanel {
+  border-color: rgba(117, 180, 159, .30);
+  background:
+    radial-gradient(circle at 96% -8%, rgba(63,139,114,.36), transparent 24rem),
+    radial-gradient(circle at 2% 105%, rgba(166,76,105,.18), transparent 22rem),
+    linear-gradient(145deg, #072d23, #0a4234 64%, #27211d);
+}
+
+.completionPanel {
+  border-color: rgba(63, 139, 114, .26);
+  background:
+    linear-gradient(135deg, rgba(11,79,60,.19), rgba(90,45,34,.24));
+}
+
+.completionButton {
+  border-color: var(--phthalo);
+  background: var(--phthalo);
+}
+
+.completionButton:hover {
+  background: #357b65;
+}
+
+.calendarHeader {
+  border-color: rgba(117, 180, 159, .22);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(63,139,114,.30), transparent 30rem),
+    radial-gradient(circle at 15% 110%, rgba(90,45,34,.42), transparent 24rem),
+    linear-gradient(145deg, rgba(24,61,49,.88), rgba(31,23,20,.97));
+}
+
+.calendarHero h1 {
+  color: #a8d2c3;
+}
+
+.calendarStats {
+  border-color: rgba(117, 180, 159, .18);
+}
+
+.calendarStats strong {
+  color: #b8ddcf;
+}
+
+.calendarFilterRow button {
+  border-color: rgba(117, 180, 159, .18);
+  background: rgba(11,79,60,.06);
+}
+
+.calendarFilterRow button:hover {
+  border-color: rgba(117, 180, 159, .42);
+  color: #cbe5dc;
+}
+
+.calendarFilterRow button.active {
+  border-color: var(--phthalo);
+  background: var(--phthalo);
+  color: #f7fff9;
+}
+
+.movementCalendar {
+  border-color: rgba(117, 180, 159, .13);
+  background:
+    linear-gradient(135deg, rgba(11,79,60,.07), rgba(33,26,23,.83) 40%);
+}
+
+.movementCalendar > header > span {
+  color: #8fc9b6;
+}
+
+.calendarDay:hover {
+  border-color: rgba(117, 180, 159, .42);
+  background: rgba(63,139,114,.08);
+}
+
+.calendarDay.isProgress {
+  border-color: rgba(117,180,159,.25);
+  background:
+    linear-gradient(135deg, rgba(11,79,60,.13), rgba(90,45,34,.24));
+}
+
+.calendarDay.isComplete {
+  border-color: rgba(117,180,159,.52);
+  background: rgba(63,139,114,.20);
+}
+
+/* Keep Daily / Calendar accessible on tablets and phones. */
+@media (max-width: 900px) {
+  .dayHeader {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 12px 14px;
+    padding: 12px 0 18px;
+  }
+
+  .dayHeaderCenter {
+    display: block;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .dayHeaderCenter .appTabs {
+    display: flex;
+    width: 100%;
+  }
+
+  .dayHeaderCenter .appTabs button {
+    flex: 1 1 50%;
+    justify-content: center;
+  }
+
+  .headerStatus {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .wordmark {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 680px) {
+  .homeNavRow,
+  .calendarBrandRow {
+    flex-wrap: wrap;
+  }
+
+  .homeNavRow .appTabs,
+  .calendarBrandRow .appTabs {
+    width: 100%;
+  }
+
+  .homeNavRow .appTabs button,
+  .calendarBrandRow .appTabs button {
+    flex: 1 1 50%;
+    justify-content: center;
+  }
+
+  .appTabs button {
+    min-height: 44px;
+  }
+}
