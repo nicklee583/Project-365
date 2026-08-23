@@ -5,6 +5,7 @@ import CompletionPanel from "./CompletionPanel";
 import DayNavigator from "./DayNavigator";
 import FavoriteButton from "./FavoriteButton";
 import MediaCard from "./MediaCard";
+import MovementTransition from "./MovementTransition";
 import ReflectionPanel from "./ReflectionPanel";
 
 export default function DayScreen({
@@ -143,6 +144,13 @@ export default function DayScreen({
         completedCount={completedCount}
         totalDays={totalDays}
         onToggle={onToggleComplete}
+      />
+
+      <MovementTransition
+        day={content.day}
+        completed={completed}
+        onOpenDay={onOpenDay}
+        onCalendar={onCalendar}
       />
 
       <DayNavigator
