@@ -1,0 +1,9 @@
+{
+  "name": "365 — A Daily Reflection",
+  "short_name": "365",
+  "description": "A year of poems, essays, and art.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f0e7",
+  "theme_color": "#f4f0e7"
+}
